@@ -11,7 +11,8 @@ import SwiftUI
 struct WeSplit_OverviewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            State_TapCount()
         }
     }
 }
