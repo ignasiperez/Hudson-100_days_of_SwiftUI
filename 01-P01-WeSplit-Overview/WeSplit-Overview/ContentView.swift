@@ -10,8 +10,24 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         Form {
-            Text("Hello World!")
+            Section {
+                Text("Hello World!")
+            }
+            Section {
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+            }
+            Section {
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+                Text("Hello World!")
+            }
         }  // Form
+        .border(.blue, width: 3)
     }
 } // ContentView
 
