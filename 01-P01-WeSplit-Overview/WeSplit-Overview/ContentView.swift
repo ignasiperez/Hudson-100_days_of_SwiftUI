@@ -29,6 +29,7 @@ struct ContentView: View {
                 }
             }  // Form
             .border(.blue, width: 10)
+            .navigationTitle("SwiftUI")
         } // NavigationStack
         .border(.purple, width: 5)
     }
