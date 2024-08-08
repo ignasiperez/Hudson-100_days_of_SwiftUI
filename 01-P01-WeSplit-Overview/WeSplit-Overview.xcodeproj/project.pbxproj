@@ -12,6 +12,7 @@
 		6B8F429D2C63F00F0095F0D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F429C2C63F00F0095F0D5 /* Assets.xcassets */; };
 		6B8F42A02C63F00F0095F0D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F429F2C63F00F0095F0D5 /* Preview Assets.xcassets */; };
 		6B92E3672C651C4A00D7602B /* State_TapCount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92E3662C651C4A00D7602B /* State_TapCount.swift */; };
+		6B92E3692C65211200D7602B /* BindingState_EnterYourName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B92E3682C65211200D7602B /* BindingState_EnterYourName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		6B8F429C2C63F00F0095F0D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B8F429F2C63F00F0095F0D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B92E3662C651C4A00D7602B /* State_TapCount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State_TapCount.swift; sourceTree = "<group>"; };
+		6B92E3682C65211200D7602B /* BindingState_EnterYourName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingState_EnterYourName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				6B8F42982C63F00D0095F0D5 /* WeSplit_OverviewApp.swift */,
 				6B8F429A2C63F00D0095F0D5 /* ContentView.swift */,
 				6B92E3662C651C4A00D7602B /* State_TapCount.swift */,
+				6B92E3682C65211200D7602B /* BindingState_EnterYourName.swift */,
 				6B8F429C2C63F00F0095F0D5 /* Assets.xcassets */,
 				6B8F429E2C63F00F0095F0D5 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B92E3692C65211200D7602B /* BindingState_EnterYourName.swift in Sources */,
 				6B8F429B2C63F00D0095F0D5 /* ContentView.swift in Sources */,
 				6B92E3672C651C4A00D7602B /* State_TapCount.swift in Sources */,
 				6B8F42992C63F00D0095F0D5 /* WeSplit_OverviewApp.swift in Sources */,

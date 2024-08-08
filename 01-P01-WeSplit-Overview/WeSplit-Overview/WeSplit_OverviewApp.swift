@@ -12,7 +12,8 @@ struct WeSplit_OverviewApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            State_TapCount()
+//            State_TapCount()
+            BindingState_EnterYourName()
         }
     }
 }
