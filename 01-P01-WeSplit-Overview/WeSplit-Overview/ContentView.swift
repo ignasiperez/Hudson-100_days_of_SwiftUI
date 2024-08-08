@@ -9,12 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-        }
-        .padding()
+        Form {
+            Text("Hello World!")
+        }  // Form
     }
-}
+} // ContentView
 
 #Preview {
     ContentView()
