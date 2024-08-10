@@ -13,7 +13,8 @@ struct WeSplit_OverviewApp: App {
         WindowGroup {
 //            ContentView()
 //            State_TapCount()
-            BindingState_EnterYourName()
+//            BindingState_EnterYourName()
+            ForEach_Range()
         }
     }
 }
