@@ -14,7 +14,9 @@ struct WeSplit_OverviewApp: App {
 //            ContentView()
 //            State_TapCount()
 //            BindingState_EnterYourName()
-            ForEach_Range()
+//            ForEach_Range()
+//            ForEach_Range_ShorthandSyntax()
+            ForEach_Picker()
         }
     }
 }
