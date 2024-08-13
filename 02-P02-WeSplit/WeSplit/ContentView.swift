@@ -24,6 +24,7 @@ struct ContentView: View {
                         code: Locale.current.currency?.identifier ?? "USD"
                     )
                 )
+                .keyboardType(.decimalPad)
             }
             Section {
                 Text(
