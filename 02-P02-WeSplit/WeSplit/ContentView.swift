@@ -56,8 +56,6 @@ struct ContentView: View {
                             code: Locale.current.currency?.identifier ?? "USD"
                         )
                     )
-                    Text("numberOfPeople: \(numberOfPeople)")
-                    Text("tipPercentage: \(tipPercentage)")
                 }
             }
             .navigationTitle("WeSplit")
