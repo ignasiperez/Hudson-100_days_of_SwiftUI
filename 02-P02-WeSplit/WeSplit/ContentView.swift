@@ -46,7 +46,8 @@ struct ContentView: View {
                     Text("Number of people: \(numberOfPeople)")
                 }
             }
-        } // Form
+            .navigationTitle("WeSplit")
+        } // NavigationStack
     }
 } // ContentView
 
