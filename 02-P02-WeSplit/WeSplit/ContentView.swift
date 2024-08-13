@@ -20,7 +20,9 @@ struct ContentView: View {
                 TextField(
                     "Amount",
                     value: $checkAmount,
-                    format: .currency(code: "USD")
+                    format: .currency(
+                        code: Locale.current.currency?.identifier ?? "USD"
+                    )
                 )
             }
         } // Form
