@@ -14,6 +14,7 @@
 		6BD239822C6CC16E0061870E /* VStack_Explicit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD239812C6CC16E0061870E /* VStack_Explicit.swift */; };
 		6BD239842C6CC2490061870E /* VStack_spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD239832C6CC2490061870E /* VStack_spacing.swift */; };
 		6BD239862C6CC3A20061870E /* VStack_alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD239852C6CC3A20061870E /* VStack_alignment.swift */; };
+		6BD239882C6CD2A70061870E /* VStack_Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD239872C6CD2A70061870E /* VStack_Spacer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		6BD239812C6CC16E0061870E /* VStack_Explicit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Explicit.swift; sourceTree = "<group>"; };
 		6BD239832C6CC2490061870E /* VStack_spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_spacing.swift; sourceTree = "<group>"; };
 		6BD239852C6CC3A20061870E /* VStack_alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_alignment.swift; sourceTree = "<group>"; };
+		6BD239872C6CD2A70061870E /* VStack_Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Spacer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				6BD239812C6CC16E0061870E /* VStack_Explicit.swift */,
 				6BD239832C6CC2490061870E /* VStack_spacing.swift */,
 				6BD239852C6CC3A20061870E /* VStack_alignment.swift */,
+				6BD239872C6CD2A70061870E /* VStack_Spacer.swift */,
 				6BB1EF582C6CB82C00B41D0F /* Assets.xcassets */,
 				6BB1EF5A2C6CB82C00B41D0F /* Preview Content */,
 			);
@@ -151,6 +154,7 @@
 				6BB1EF572C6CB82B00B41D0F /* VStack_Implicit.swift in Sources */,
 				6BB1EF552C6CB82B00B41D0F /* GuessTheFlag_OverviewApp.swift in Sources */,
 				6BD239842C6CC2490061870E /* VStack_spacing.swift in Sources */,
+				6BD239882C6CD2A70061870E /* VStack_Spacer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
