@@ -18,6 +18,7 @@
 		6BD2398A2C6CD3680061870E /* VStack_Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD239892C6CD3680061870E /* VStack_Spacers.swift */; };
 		6BD2398C2C6CD69E0061870E /* ZStack_Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2398B2C6CD69E0061870E /* ZStack_Rectangle.swift */; };
 		6BD2398E2C6CDCE80061870E /* ZStack_background1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2398D2C6CDCE80061870E /* ZStack_background1.swift */; };
+		6BD239902C6CDF3F0061870E /* ZStack_background2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD2398F2C6CDF3F0061870E /* ZStack_background2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		6BD239892C6CD3680061870E /* VStack_Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Spacers.swift; sourceTree = "<group>"; };
 		6BD2398B2C6CD69E0061870E /* ZStack_Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Rectangle.swift; sourceTree = "<group>"; };
 		6BD2398D2C6CDCE80061870E /* ZStack_background1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_background1.swift; sourceTree = "<group>"; };
+		6BD2398F2C6CDF3F0061870E /* ZStack_background2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_background2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 				6BD239892C6CD3680061870E /* VStack_Spacers.swift */,
 				6BD2398B2C6CD69E0061870E /* ZStack_Rectangle.swift */,
 				6BD2398D2C6CDCE80061870E /* ZStack_background1.swift */,
+				6BD2398F2C6CDF3F0061870E /* ZStack_background2.swift */,
 				6BB1EF582C6CB82C00B41D0F /* Assets.xcassets */,
 				6BB1EF5A2C6CB82C00B41D0F /* Preview Content */,
 			);
@@ -162,6 +165,7 @@
 				6BD2398E2C6CDCE80061870E /* ZStack_background1.swift in Sources */,
 				6BD239822C6CC16E0061870E /* VStack_Explicit.swift in Sources */,
 				6BD239862C6CC3A20061870E /* VStack_alignment.swift in Sources */,
+				6BD239902C6CDF3F0061870E /* ZStack_background2.swift in Sources */,
 				6BB1EF572C6CB82B00B41D0F /* VStack_Implicit.swift in Sources */,
 				6BB1EF552C6CB82B00B41D0F /* GuessTheFlag_OverviewApp.swift in Sources */,
 				6BD2398C2C6CD69E0061870E /* ZStack_Rectangle.swift in Sources */,
