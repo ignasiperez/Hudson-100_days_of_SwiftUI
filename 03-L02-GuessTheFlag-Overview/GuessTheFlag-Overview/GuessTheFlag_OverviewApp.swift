@@ -11,7 +11,7 @@ import SwiftUI
 struct GuessTheFlag_OverviewApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            VStack_Implicit()
         }
     }
 }
