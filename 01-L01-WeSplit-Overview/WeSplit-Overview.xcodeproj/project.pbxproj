@@ -19,7 +19,8 @@
 		6BA279E62C6D15C400809720 /* ZStack_Color_WholeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA279E52C6D15C400809720 /* ZStack_Color_WholeArea.swift */; };
 		6BA279E82C6D16F000809720 /* ZStack_Color_SpecificSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA279E72C6D16F000809720 /* ZStack_Color_SpecificSize.swift */; };
 		6BA279EA2C6D192000809720 /* ZStack_Color_minWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA279E92C6D192000809720 /* ZStack_Color_minWidth.swift */; };
-		6BA279EC2C6D1B0500809720 /* ZStack_Color_SemanticColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA279EB2C6D1B0500809720 /* ZStack_Color_SemanticColors.swift */; };
+		6BA279EC2C6D1B0500809720 /* ZStack_Color_SemanticColors1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA279EB2C6D1B0500809720 /* ZStack_Color_SemanticColors1.swift */; };
+		6BA279EE2C6D1DB700809720 /* ZStack_Color_SemanticColors2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA279ED2C6D1DB700809720 /* ZStack_Color_SemanticColors2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,7 +37,8 @@
 		6BA279E52C6D15C400809720 /* ZStack_Color_WholeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_WholeArea.swift; sourceTree = "<group>"; };
 		6BA279E72C6D16F000809720 /* ZStack_Color_SpecificSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_SpecificSize.swift; sourceTree = "<group>"; };
 		6BA279E92C6D192000809720 /* ZStack_Color_minWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_minWidth.swift; sourceTree = "<group>"; };
-		6BA279EB2C6D1B0500809720 /* ZStack_Color_SemanticColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_SemanticColors.swift; sourceTree = "<group>"; };
+		6BA279EB2C6D1B0500809720 /* ZStack_Color_SemanticColors1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_SemanticColors1.swift; sourceTree = "<group>"; };
+		6BA279ED2C6D1DB700809720 /* ZStack_Color_SemanticColors2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_SemanticColors2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,9 +81,10 @@
 				6BA279E52C6D15C400809720 /* ZStack_Color_WholeArea.swift */,
 				6BA279E72C6D16F000809720 /* ZStack_Color_SpecificSize.swift */,
 				6BA279E92C6D192000809720 /* ZStack_Color_minWidth.swift */,
+				6BA279EB2C6D1B0500809720 /* ZStack_Color_SemanticColors1.swift */,
+				6BA279ED2C6D1DB700809720 /* ZStack_Color_SemanticColors2.swift */,
 				6B8F429C2C63F00F0095F0D5 /* Assets.xcassets */,
 				6B8F429E2C63F00F0095F0D5 /* Preview Content */,
-				6BA279EB2C6D1B0500809720 /* ZStack_Color_SemanticColors.swift */,
 			);
 			path = "WeSplit-Overview";
 			sourceTree = "<group>";
@@ -165,7 +168,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B92E3692C65211200D7602B /* BindingState_EnterYourName.swift in Sources */,
-				6BA279EC2C6D1B0500809720 /* ZStack_Color_SemanticColors.swift in Sources */,
+				6BA279EC2C6D1B0500809720 /* ZStack_Color_SemanticColors1.swift in Sources */,
 				6B0ABE182C67465400ED3ADC /* ForEach_Range.swift in Sources */,
 				6B8F429B2C63F00D0095F0D5 /* ContentView.swift in Sources */,
 				6BA279E82C6D16F000809720 /* ZStack_Color_SpecificSize.swift in Sources */,
@@ -174,6 +177,7 @@
 				6B0ABE1C2C6758B500ED3ADC /* ForEach_Picker.swift in Sources */,
 				6B92E3672C651C4A00D7602B /* State_TapCount.swift in Sources */,
 				6B8F42992C63F00D0095F0D5 /* WeSplit_OverviewApp.swift in Sources */,
+				6BA279EE2C6D1DB700809720 /* ZStack_Color_SemanticColors2.swift in Sources */,
 				6BA279EA2C6D192000809720 /* ZStack_Color_minWidth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
