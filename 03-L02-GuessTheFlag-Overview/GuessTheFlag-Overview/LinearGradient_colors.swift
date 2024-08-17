@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct LinearGradient_gradient: View {
+struct LinearGradient_colors: View {
     var body: some View {
         LinearGradient(
             colors: [.white, .black],
@@ -18,5 +18,5 @@ struct LinearGradient_gradient: View {
 }
 
 #Preview {
-    LinearGradient_gradient()
+    LinearGradient_colors()
 }
