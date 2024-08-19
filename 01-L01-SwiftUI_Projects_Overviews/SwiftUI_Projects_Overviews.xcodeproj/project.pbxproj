@@ -32,6 +32,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B312B1A2C73735D0041A9D8 /* WeSplit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WeSplit;
+			sourceTree = "<group>";
+		};
 		6BB165672C736EED00D9DBCB = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +58,7 @@
 		6BB165722C736EED00D9DBCB /* SwiftUI_Projects_Overviews */ = {
 			isa = PBXGroup;
 			children = (
+				6B312B1A2C73735D0041A9D8 /* WeSplit */,
 				6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */,
 				6BB165752C736EED00D9DBCB /* Form_Text.swift */,
 				6BB165772C736EEE00D9DBCB /* Assets.xcassets */,
