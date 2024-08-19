@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  Form_Text.swift
 //  SwiftUI_Projects_Overviews
 //
 //  Created by Ignasi Perez-Valls on 19/8/24.
@@ -7,12 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct Form_Text: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
+        Form {
             Text("Hello, world!")
         }
         .padding()
@@ -20,5 +17,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    Form_Text()
 }
