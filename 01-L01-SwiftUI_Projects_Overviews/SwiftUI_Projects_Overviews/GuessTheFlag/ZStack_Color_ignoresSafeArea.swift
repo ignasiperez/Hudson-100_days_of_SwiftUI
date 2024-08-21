@@ -4,6 +4,9 @@
 //
 //  Created by Ignasi Perez-Valls on 21/8/24.
 //
+// §ZStack
+//      §ignoresSafeArea
+//
 
 import SwiftUI
 
