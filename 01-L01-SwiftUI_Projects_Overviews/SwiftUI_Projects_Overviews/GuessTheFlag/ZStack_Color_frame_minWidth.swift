@@ -4,6 +4,10 @@
 //
 //  Created by Ignasi Perez-Valls on 21/8/24.
 //
+// §ZStack
+//      §Color
+//          §frame(§minVidth:§maxWidth:§maxHeight:)
+//
 
 import SwiftUI
 

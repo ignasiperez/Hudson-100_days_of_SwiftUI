@@ -4,6 +4,8 @@
 //
 //  Created by Ignasi Perez-Valls on 20/8/24.
 //
+// §VStack
+//      §Spacer()
 
 import SwiftUI
 

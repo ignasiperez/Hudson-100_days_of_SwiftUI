@@ -4,6 +4,7 @@
 //
 //  Created by Ignasi Perez-Valls on 20/8/24.
 //
+// §VStack(§alignment:spacing:content:)
 
 import SwiftUI
 

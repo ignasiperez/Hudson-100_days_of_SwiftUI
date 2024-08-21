@@ -1,13 +1,15 @@
 //
-//  ZStack_Color_wholeArea.swift
+//  ZStack_Color_frame_wholeArea.swift
 //  SwiftUI_Projects_Overviews
 //
 //  Created by Ignasi Perez-Valls on 20/8/24.
 //
+// §ZStack
+//      §Color
 
 import SwiftUI
 
-struct ZStack_Color_wholeArea: View {
+struct ZStack_Color_frame_wholeArea: View {
     var body: some View {
         ZStack {
             Color.orange
@@ -17,5 +19,5 @@ struct ZStack_Color_wholeArea: View {
 }
 
 #Preview {
-    ZStack_Color_wholeArea()
+    ZStack_Color_frame_wholeArea()
 }

@@ -4,6 +4,9 @@
 //
 //  Created by Ignasi Perez-Valls on 20/8/24.
 //
+// §ZStack
+//      §Color
+//          §frame(§width:§height:)
 
 import SwiftUI
 

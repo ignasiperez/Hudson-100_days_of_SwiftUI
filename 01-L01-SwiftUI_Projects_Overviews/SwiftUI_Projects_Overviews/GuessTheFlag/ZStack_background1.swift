@@ -4,6 +4,8 @@
 //
 //  Created by Ignasi Perez-Valls on 20/8/24.
 //
+// §ZStack
+//      §background(_ style:)
 
 import SwiftUI
 
