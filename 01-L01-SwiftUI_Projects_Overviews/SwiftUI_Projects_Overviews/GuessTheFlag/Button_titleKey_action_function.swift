@@ -4,6 +4,8 @@
 //
 //  Created by Ignasi Perez-Valls on 22/8/24.
 //
+// §Button(_ titleKey:action:)
+//
 
 import SwiftUI
 

@@ -43,6 +43,7 @@
 		6BFBE8862C77445C00617D39 /* Text_frame_background_Color_gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBE8852C77445C00617D39 /* Text_frame_background_Color_gradient.swift */; };
 		6BFBE8882C774A4800617D39 /* Button_titleKey_action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBE8872C774A4800617D39 /* Button_titleKey_action.swift */; };
 		6BFBE88A2C778D5C00617D39 /* Button_titleKey_action_function.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBE8892C778D5C00617D39 /* Button_titleKey_action_function.swift */; };
+		6BFBE88C2C778F9D00617D39 /* Button_titleKey_role_action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBE88B2C778F9D00617D39 /* Button_titleKey_role_action.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -83,6 +84,7 @@
 		6BFBE8852C77445C00617D39 /* Text_frame_background_Color_gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_frame_background_Color_gradient.swift; sourceTree = "<group>"; };
 		6BFBE8872C774A4800617D39 /* Button_titleKey_action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_titleKey_action.swift; sourceTree = "<group>"; };
 		6BFBE8892C778D5C00617D39 /* Button_titleKey_action_function.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_titleKey_action_function.swift; sourceTree = "<group>"; };
+		6BFBE88B2C778F9D00617D39 /* Button_titleKey_role_action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_titleKey_role_action.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 				6BFBE8852C77445C00617D39 /* Text_frame_background_Color_gradient.swift */,
 				6BFBE8872C774A4800617D39 /* Button_titleKey_action.swift */,
 				6BFBE8892C778D5C00617D39 /* Button_titleKey_action_function.swift */,
+				6BFBE88B2C778F9D00617D39 /* Button_titleKey_role_action.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				6B5091AC2C75EF1E006AFE4E /* ZStack_Color_semanticColors2.swift in Sources */,
 				6B312B1E2C7375D70041A9D8 /* NavigationStack_Form_Text_Section.swift in Sources */,
 				6B27A6782C74F38000F1CE3F /* VStack_Explicit.swift in Sources */,
+				6BFBE88C2C778F9D00617D39 /* Button_titleKey_role_action.swift in Sources */,
 				6BFBE8862C77445C00617D39 /* Text_frame_background_Color_gradient.swift in Sources */,
 				6BFBE8822C773D9700617D39 /* RadialGradient_colors.swift in Sources */,
 				6B27A6762C74F2DE00F1CE3F /* VStack_implicit.swift in Sources */,
