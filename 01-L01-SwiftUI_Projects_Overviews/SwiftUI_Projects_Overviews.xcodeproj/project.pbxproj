@@ -26,6 +26,7 @@
 		6B5091AE2C75F050006AFE4E /* ZStack_Color_RGBCostumeValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091AD2C75F050006AFE4E /* ZStack_Color_RGBCostumeValues.swift */; };
 		6B5091B02C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091AF2C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift */; };
 		6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */; };
+		6B60B5602C76441E0036A99B /* LinearGradient_colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */; };
 		6BB165742C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */; };
 		6BB165762C736EED00D9DBCB /* Form_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165752C736EED00D9DBCB /* Form_Text.swift */; };
 		6BB165782C736EEE00D9DBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB165772C736EEE00D9DBCB /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		6B5091AD2C75F050006AFE4E /* ZStack_Color_RGBCostumeValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_RGBCostumeValues.swift; sourceTree = "<group>"; };
 		6B5091AF2C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_ignoresSafeArea.swift; sourceTree = "<group>"; };
 		6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_ultraThinMaterial.swift; sourceTree = "<group>"; };
+		6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_colors.swift; sourceTree = "<group>"; };
 		6BB165702C736EED00D9DBCB /* SwiftUI_Projects_Overviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Projects_Overviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Projects_OverviewsApp.swift; sourceTree = "<group>"; };
 		6BB165752C736EED00D9DBCB /* Form_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_Text.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				6B5091AD2C75F050006AFE4E /* ZStack_Color_RGBCostumeValues.swift */,
 				6B5091AF2C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift */,
 				6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */,
+				6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */,
 			);
 			path = GuessTheFlag;
 			sourceTree = "<group>";
@@ -227,6 +230,7 @@
 			files = (
 				6BC5619D2C75015200C27484 /* ZStack_Color_specificSize.swift in Sources */,
 				6BC561992C74FEF400C27484 /* ZStack_background2.swift in Sources */,
+				6B60B5602C76441E0036A99B /* LinearGradient_colors.swift in Sources */,
 				6B5091A82C75E607006AFE4E /* ZStack_Color_frame_minWidth.swift in Sources */,
 				6B312B242C7380EB0041A9D8 /* TwoWayBindingState_EnterYourName.swift in Sources */,
 				6B27A67C2C74F71900F1CE3F /* VStack_alignment.swift in Sources */,
