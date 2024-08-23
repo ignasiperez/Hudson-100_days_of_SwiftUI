@@ -12,6 +12,8 @@ struct Buton_buttonStyle: View {
         VStack {
             Button("Button 1") {}
                 .buttonStyle(.bordered)
+            Button("Button 2", role: .destructive) {}
+                .buttonStyle(.bordered)
         }
     }
 }
