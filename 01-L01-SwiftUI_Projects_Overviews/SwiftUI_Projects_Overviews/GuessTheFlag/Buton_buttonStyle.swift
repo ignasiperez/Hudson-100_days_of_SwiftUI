@@ -14,6 +14,8 @@ struct Buton_buttonStyle: View {
                 .buttonStyle(.bordered)
             Button("Button 2", role: .destructive) {}
                 .buttonStyle(.bordered)
+            Button("Button 3") {}
+                .buttonStyle(.borderedProminent)
         }
     }
 }
