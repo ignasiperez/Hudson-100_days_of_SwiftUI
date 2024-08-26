@@ -1,12 +1,8 @@
 //
-//  ZStack_Color_specificSize.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 20/8/24.
-//
 // §ZStack
 //      §Color
-//          §frame(§width:§height:)
+//          §frame(&width:&height:alignment)
+//
 
 import SwiftUI
 

@@ -1,12 +1,5 @@
 //
-//  ZStack_Color_ultraThinMaterial.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 21/8/24.
-//
-// §Text
-//      §background
-//          §ultraThinMaterial
+// §Text.§background.§ultraThinMaterial
 //
 
 import SwiftUI

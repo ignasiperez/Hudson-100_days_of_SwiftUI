@@ -1,8 +1,5 @@
 //
-//  Button_systemImage.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 25/8/24.
+// §Button(LocalizedStringKey:&systemImage:action)
 //
 
 import SwiftUI

@@ -1,11 +1,8 @@
 //
-//  ZStack_background2.swift
-//  SwiftUI_Projects_Overviews
+// §ZStack
+//      §Text
+//          §background(&ShapeStyle:ignoreSafeAreaEdges)
 //
-//  Created by Ignasi Perez-Valls on 20/8/24.
-//
-// §Text
-//      §background(_ style:)
 
 import SwiftUI
 

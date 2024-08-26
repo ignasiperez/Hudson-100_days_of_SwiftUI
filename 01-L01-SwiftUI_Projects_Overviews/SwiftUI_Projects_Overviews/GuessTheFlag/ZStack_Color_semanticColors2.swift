@@ -1,11 +1,7 @@
 //
-//  ZStack_Color_semanticColors2.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 21/8/24.
-//
-// §Color.orange
-// §Color.secondary
+// §ZStack
+//      §Color.orange
+//      §Color.secondary
 //
 
 import SwiftUI

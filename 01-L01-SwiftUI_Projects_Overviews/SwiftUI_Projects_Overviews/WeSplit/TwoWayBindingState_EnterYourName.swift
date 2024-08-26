@@ -1,12 +1,9 @@
 //
-//  TwoWayBindingState_EnterYourName.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 19/8/24.
-//
-// §§@State two-way binding $name
+// §@State $name (two-way binding)
 // §Form
-// §TextField
+//      §TextField
+//      §Text
+//
 
 import SwiftUI
 

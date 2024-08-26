@@ -1,8 +1,10 @@
 //
-//  Buton_buttonStyle.swift
-//  SwiftUI_Projects_Overviews
+// §Button.§buttonStyle(.&bordered)
+// §Button.§buttonStyle(.&borderedProminent)
 //
-//  Created by Ignasi Perez-Valls on 23/8/24.
+// §Button(LocalizedStringKey:&role:action:)
+//
+// §Button.§tint(&Color?)
 //
 
 import SwiftUI

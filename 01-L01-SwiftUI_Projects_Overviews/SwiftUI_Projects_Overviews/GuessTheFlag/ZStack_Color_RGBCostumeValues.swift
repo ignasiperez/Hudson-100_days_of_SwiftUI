@@ -1,11 +1,7 @@
 //
-//  ZStack_Color_RGBCostumeValues.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 21/8/24.
-//
 // §ZStack
-// §Color(red:green:blue)
+//      §Color(_:&red:&green:&blue:opacity:)
+//
 
 import SwiftUI
 

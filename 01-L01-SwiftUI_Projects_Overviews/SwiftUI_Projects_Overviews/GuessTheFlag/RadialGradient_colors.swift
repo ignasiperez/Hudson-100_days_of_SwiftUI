@@ -1,10 +1,5 @@
 //
-//  RadialGradient_colors.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 22/8/24.
-//
-// §RadialGradient(colors:center:startRadius:endRadius:)
+// §RadialGradient(&colors:&center:&startRadius:&endRadius:)
 //
 
 import SwiftUI

@@ -2,9 +2,7 @@
 //  LinearGradient_colors.swift
 //  SwiftUI_Projects_Overviews
 //
-//  Created by Ignasi Perez-Valls on 21/8/24.
-//
-// §LinearGradient(colors:startPoint:endPoint:)
+// §LinearGradient(&colors:&startPoint:&endPoint:)
 //
 
 import SwiftUI

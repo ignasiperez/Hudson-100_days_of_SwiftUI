@@ -1,10 +1,5 @@
 //
-//  Button_titleKey_role_action.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 22/8/24.
-//
-// §Button(_ titleKey:role:action:)
+// §Button(LocalizedStringKey:&role:action:)
 //
 
 import SwiftUI

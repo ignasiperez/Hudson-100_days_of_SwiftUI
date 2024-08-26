@@ -1,9 +1,6 @@
 //
-//  ForEach_Picker.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 19/8/24.
-//
+// §@State $selectedStudent (two-way binding)
+// §Picker(LocalizedStringKey, selection: Binding<SelectionValue>, content)
 
 import SwiftUI
 

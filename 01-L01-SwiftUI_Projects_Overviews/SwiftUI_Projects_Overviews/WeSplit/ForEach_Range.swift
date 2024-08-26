@@ -1,11 +1,6 @@
 //
-//  ForEach_Range.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 19/8/24.
-//
 // §Form
-// §§ForEach with a range
+// §ForEach(Range<Int>, content: (Int) -> content) (with a range)
 
 import SwiftUI
 

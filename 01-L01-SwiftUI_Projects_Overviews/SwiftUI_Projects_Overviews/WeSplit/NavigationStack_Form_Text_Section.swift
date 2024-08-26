@@ -1,13 +1,8 @@
 //
-//  NavigationStack_Form_Text_Section.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 19/8/24.
-//
-// §NavigationStack
-// §Form
-// §Text
-// §Section
+// §NavigationStack(&root:)
+//      §Form
+//          §Section
+//              Text
 
 import SwiftUI
 

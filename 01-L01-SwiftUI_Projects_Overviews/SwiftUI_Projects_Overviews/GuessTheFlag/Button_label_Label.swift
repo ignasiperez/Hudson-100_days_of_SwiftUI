@@ -1,11 +1,6 @@
 //
-//  Button_label_Label.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 25/8/24.
-//
-// §Button(action:label)
-//      §Label(_:systemImage)
+// §Button(action:&label)
+//      §Label(LocalizedStringKey:&systemImage)
 //
 
 import SwiftUI

@@ -1,10 +1,6 @@
 //
-//  VStack_Explicit.swift
-//  SwiftUI_Projects_Overviews
+// §VStack(alignment:spacing:content)
 //
-//  Created by Ignasi Perez-Valls on 20/8/24.
-//
-// §VStack
 
 import SwiftUI
 

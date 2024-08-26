@@ -1,9 +1,4 @@
 //
-//  ZStack_Color_semanticColors1.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 21/8/24.
-//
 // §Color.secondary
 //
 

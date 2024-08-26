@@ -1,10 +1,5 @@
 //
-//  Button_titleKey_action_function.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 22/8/24.
-//
-// §Button(_ titleKey:action:)
+// §Button(LocalizedStringKey:&action:)
 //
 
 import SwiftUI

@@ -1,12 +1,7 @@
 //
-//  Form_Text_Section.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 19/8/24.
-//
 // §Form
-// §Text
-// §Section
+//      §Section(&content:)
+//          Text
 
 import SwiftUI
 

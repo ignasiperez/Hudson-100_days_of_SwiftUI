@@ -1,11 +1,6 @@
 //
-//  Button_action_label.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 23/8/24.
-//
-// $Button(action:label:)
-//
+// $Button(action:&label:)
+//      §Text(&LocalizedStringKey:tableName:bundle:comment)
 
 import SwiftUI
 

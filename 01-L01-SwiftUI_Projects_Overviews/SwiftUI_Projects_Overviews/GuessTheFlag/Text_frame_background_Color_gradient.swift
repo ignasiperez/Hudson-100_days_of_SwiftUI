@@ -1,12 +1,5 @@
 //
-//  Text_frame_background_Color_gradient.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 22/8/24.
-//
-// §Text
-//      §frame
-//      §background
+// §Text.§background(.orange.gradient)
 // 
 
 import SwiftUI

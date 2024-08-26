@@ -1,12 +1,7 @@
 //
-//  NavigationStack_Form_navigationTitle.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 19/8/24.
-//
 // §NavigationStack
-// §navigationTitle
-// §Form
+// §Form.§navigationTitle(&LocalizedStringKey:)
+//
 
 
 import SwiftUI
