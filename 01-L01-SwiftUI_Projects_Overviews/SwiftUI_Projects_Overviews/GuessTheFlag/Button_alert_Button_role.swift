@@ -15,6 +15,8 @@ struct Button_alert_Button_role: View {
         .alert("Important message", isPresented: $showingAlert) {
             Button("Delete", role: .destructive) {}
             Button("Cancel", role: .cancel, action: {})
+        } message: {
+            Text("Please read this.")
         }
     }
 }
