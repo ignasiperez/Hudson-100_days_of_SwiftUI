@@ -15,6 +15,10 @@ struct ContentView: View {
                 Text("Tap the flag of")
                 Text(countries[correctAnswer])
             }
+            
+            ForEach(0..<3) { number in
+                Image(countries[number])
+            }
         }
     }
 } // ContentView
