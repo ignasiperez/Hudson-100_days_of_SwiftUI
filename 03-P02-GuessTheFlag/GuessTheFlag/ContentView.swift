@@ -8,6 +8,7 @@ struct ContentView: View {
             "Italy", "Nigeria", "Poland", "Spain",
             "UK", "Ukraine", "US"
         ]
+        var correctAnswer = Int.random(in: 0...2)
         
         VStack {
             Text("Hello, world!")
