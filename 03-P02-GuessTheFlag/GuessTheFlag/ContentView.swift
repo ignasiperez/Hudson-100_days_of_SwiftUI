@@ -10,6 +10,7 @@ struct ContentView: View {
     var correctAnswer = Int.random(in: 0...2)
     
     @State private var showingScore = false
+    @State private var scoreTitle = ""
     
     var body: some View {
         ZStack {
