@@ -7,7 +7,7 @@ struct ContentView: View {
         "Italy", "Nigeria", "Poland", "Spain",
         "UK", "Ukraine", "US"
     ].shuffled()
-    var correctAnswer = Int.random(in: 0...2)
+    @State private var correctAnswer = Int.random(in: 0...2)
     
     @State private var showingScore = false
     @State private var scoreTitle = ""
@@ -32,8 +32,14 @@ struct ContentView: View {
                     })
                 }
             }
+        } // ZStack
+        .alert(scoreTitle, isPresented: $showingScore) {
+            
+        } message: {
+            
         }
-    }
+
+    } // body
     
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
@@ -45,6 +51,7 @@ struct ContentView: View {
     
     func askQuestion() {
         countries.shuffle()
+        correctAnswer = Int.random(in: 0...2)
     }
     
 } // ContentView
