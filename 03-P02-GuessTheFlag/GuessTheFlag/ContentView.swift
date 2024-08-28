@@ -26,7 +26,7 @@ struct ContentView: View {
                 
                 ForEach(0..<3) { number in
                     Button(action: {
-                        // Flag was tapped
+                        flagTapped(number)
                     }, label: {
                         Image(countries[number])
                     })
@@ -34,6 +34,11 @@ struct ContentView: View {
             }
         }
     }
+    
+    func flagTapped(_ number: Int) {
+ 
+    }
+    
 } // ContentView
 
 #Preview {
