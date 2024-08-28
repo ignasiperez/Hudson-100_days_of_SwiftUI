@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var countries = [
+    @State private var countries = [
         "Estonia", "France", "Germany", "Ireland",
         "Italy", "Nigeria", "Poland", "Spain",
         "UK", "Ukraine", "US"
@@ -44,7 +44,7 @@ struct ContentView: View {
     }
     
     func askQuestion() {
-        
+        countries.shuffle()
     }
     
 } // ContentView
