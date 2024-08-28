@@ -43,6 +43,10 @@ struct ContentView: View {
         }
     }
     
+    func askQuestion() {
+        
+    }
+    
 } // ContentView
 
 #Preview {
