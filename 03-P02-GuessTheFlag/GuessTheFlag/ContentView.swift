@@ -9,6 +9,8 @@ struct ContentView: View {
     ].shuffled()
     var correctAnswer = Int.random(in: 0...2)
     
+    @State private var showingScore = false
+    
     var body: some View {
         ZStack {
             Color.blue
