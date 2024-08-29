@@ -47,6 +47,8 @@ struct ContentView: View {
         } else {
             scoreTitle = "Wrong"
         }
+        
+        showingScore = true
     }
     
     func askQuestion() {
