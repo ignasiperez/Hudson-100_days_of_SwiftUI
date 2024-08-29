@@ -34,7 +34,7 @@ struct ContentView: View {
             }
         } // ZStack
         .alert(scoreTitle, isPresented: $showingScore) {
-            
+            Button("Continue", action: askQuestion)
         } message: {
             
         }
