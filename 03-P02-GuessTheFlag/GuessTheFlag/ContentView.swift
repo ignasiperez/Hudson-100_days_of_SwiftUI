@@ -35,6 +35,7 @@ struct ContentView: View {
                         flagTapped(number)
                     }, label: {
                         Image(countries[number])
+                            .clipShape(.capsule)
                     })
                 }
             }
