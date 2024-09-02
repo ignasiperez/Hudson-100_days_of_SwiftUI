@@ -47,7 +47,8 @@ struct ContentView: View {
                             .shadow(radius: 5)
                     })
                 }
-            }
+            } // VStack
+            .frame(maxWidth: .infinity)
         } // ZStack
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Continue", action: askQuestion)
