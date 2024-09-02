@@ -65,6 +65,7 @@ struct ContentView: View {
                     .foregroundStyle(.white)
                     .font(.title.bold())
                 
+                Spacer()
             } // VStack
         } // ZStack
         .alert(scoreTitle, isPresented: $showingScore) {
