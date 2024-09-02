@@ -67,6 +67,7 @@ struct ContentView: View {
                 
                 Spacer()
             } // VStack
+            .padding()
         } // ZStack
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Continue", action: askQuestion)
