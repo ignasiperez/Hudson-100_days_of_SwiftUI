@@ -51,6 +51,7 @@ struct ContentView: View {
             .frame(maxWidth: .infinity)
             .padding(.vertical, 20)
             .background(.regularMaterial)
+            .clipShape(.rect(cornerRadius: 20))
         } // ZStack
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Continue", action: askQuestion)
