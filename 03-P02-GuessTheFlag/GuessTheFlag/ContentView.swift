@@ -14,12 +14,20 @@ struct ContentView: View {
     
     var body: some View {
         ZStack {
-            LinearGradient(
-                colors: [.blue, .black],
-                startPoint: .top,
-                endPoint: .bottom
+            RadialGradient(
+                stops: [
+                    .init(color: Color(
+                            red: 25/255, green: 51/255, blue: 115/255
+                        ), location: 0.3
+                    ),
+                    .init(color: Color(
+                        red: 194/255, green: 38/255, blue: 66/255
+                        ), location: 0.3)
+                ], center: .top,
+                startRadius: 200,
+                endRadius: 700
             )
-                .ignoresSafeArea()
+            .ignoresSafeArea()
             VStack(spacing: 30) {
                 VStack {
                     Text("Tap the flag of")
@@ -46,7 +54,7 @@ struct ContentView: View {
         } message: {
             Text("Your score is ???")
         }
-
+        
     } // body
     
     func flagTapped(_ number: Int) {
