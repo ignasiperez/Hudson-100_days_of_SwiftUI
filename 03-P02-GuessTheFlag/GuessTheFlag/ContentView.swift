@@ -28,7 +28,7 @@ struct ContentView: View {
                 endRadius: 700
             )
             .ignoresSafeArea()
-            VStack(spacing: 30) {
+            VStack(spacing: 15) {
                 VStack {
                     Text("Tap the flag of")
                         .foregroundStyle(.white)
