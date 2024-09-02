@@ -58,6 +58,9 @@ struct ContentView: View {
                 .background(.regularMaterial)
                 .clipShape(.rect(cornerRadius: 20))
                 
+                Spacer()
+                Spacer()
+                
                 Text("Score ???")
                     .foregroundStyle(.white)
                     .font(.title.bold())
