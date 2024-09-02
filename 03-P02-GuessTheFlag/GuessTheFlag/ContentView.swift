@@ -17,41 +17,43 @@ struct ContentView: View {
             RadialGradient(
                 stops: [
                     .init(color: Color(
-                            red: 25/255, green: 51/255, blue: 115/255
-                        ), location: 0.3
+                        red: 25/255, green: 51/255, blue: 115/255
+                    ), location: 0.3
                     ),
                     .init(color: Color(
                         red: 194/255, green: 38/255, blue: 66/255
-                        ), location: 0.3)
+                    ), location: 0.3)
                 ], center: .top,
                 startRadius: 200,
                 endRadius: 700
             )
             .ignoresSafeArea()
-            VStack(spacing: 15) {
-                VStack {
-                    Text("Tap the flag of")
-                        .foregroundStyle(.white)
-                        .font(.subheadline.weight(.heavy))
-                    Text(countries[correctAnswer])
-                        .foregroundStyle(.white)
-                        .font(.largeTitle.weight(.semibold))
-                }
-                
-                ForEach(0..<3) { number in
-                    Button(action: {
-                        flagTapped(number)
-                    }, label: {
-                        Image(countries[number])
-                            .clipShape(.capsule)
-                            .shadow(radius: 5)
-                    })
-                }
+            VStack {
+                VStack(spacing: 15) {
+                    VStack {
+                        Text("Tap the flag of")
+                            .foregroundStyle(.white)
+                            .font(.subheadline.weight(.heavy))
+                        Text(countries[correctAnswer])
+                            .foregroundStyle(.white)
+                            .font(.largeTitle.weight(.semibold))
+                    }
+                    
+                    ForEach(0..<3) { number in
+                        Button(action: {
+                            flagTapped(number)
+                        }, label: {
+                            Image(countries[number])
+                                .clipShape(.capsule)
+                                .shadow(radius: 5)
+                        })
+                    }
+                } // VStack
+                .frame(maxWidth: .infinity)
+                .padding(.vertical, 20)
+                .background(.regularMaterial)
+                .clipShape(.rect(cornerRadius: 20))
             } // VStack
-            .frame(maxWidth: .infinity)
-            .padding(.vertical, 20)
-            .background(.regularMaterial)
-            .clipShape(.rect(cornerRadius: 20))
         } // ZStack
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Continue", action: askQuestion)
