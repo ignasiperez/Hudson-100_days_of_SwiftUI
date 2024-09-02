@@ -50,6 +50,7 @@ struct ContentView: View {
             } // VStack
             .frame(maxWidth: .infinity)
             .padding(.vertical, 20)
+            .background(.regularMaterial)
         } // ZStack
         .alert(scoreTitle, isPresented: $showingScore) {
             Button("Continue", action: askQuestion)
