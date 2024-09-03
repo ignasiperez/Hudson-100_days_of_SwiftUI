@@ -110,14 +110,14 @@ struct ContentView: View {
             }
         }
         
-        showingScore = true
-    }
+        if questionCounter == 8 {
+            showingResults = true
+        } else {
+            showingScore = true
+        }
+    } // flagTapped(_ number: Int)
     
     func askQuestion() {
-        if questionCounter > 8 {
-            showingResults = true
-        }
-        
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         questionCounter += 1
