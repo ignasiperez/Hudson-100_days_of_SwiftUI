@@ -7,11 +7,7 @@ struct ContentView: View {
         "Italy", "Nigeria", "Poland", "Spain",
         "UK", "Ukraine", "US"
     ]
-    @State private var countries = [
-        "Estonia", "France", "Germany", "Ireland",
-        "Italy", "Nigeria", "Poland", "Spain",
-        "UK", "Ukraine", "US"
-    ].shuffled()
+    @State private var countries = allCountries.shuffled()
     private let countriesWithThePrefix = [
         "UK", "US"
     ]
