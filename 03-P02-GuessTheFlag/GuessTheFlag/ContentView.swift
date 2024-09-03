@@ -6,7 +6,11 @@ struct ContentView: View {
         "Estonia", "France", "Germany", "Ireland",
         "Italy", "Nigeria", "Poland", "Spain",
         "UK", "Ukraine", "US"
-    ].shuffled()    
+    ].shuffled()
+    private let countriesWithThePrefix = [
+        "UK", "US"
+    ]
+    
     @State private var correctAnswer = Int.random(in: 0...2)
     
     @State private var showingScore = false
