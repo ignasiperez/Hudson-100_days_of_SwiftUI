@@ -119,6 +119,7 @@ struct ContentView: View {
     } // flagTapped(_ number: Int)
     
     func askQuestion() {
+        countries.remove(at: correctAnswer)
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         questionCounter += 1
