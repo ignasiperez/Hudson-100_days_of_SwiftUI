@@ -13,12 +13,12 @@ struct ContentView: View {
     
     @State private var correctAnswer = Int.random(in: 0...2)
     
+    @State private var showingResults = false
     @State private var showingScore = false
     @State private var scoreTitle = ""
     
     @State private var score: Int = 0
     
-    @State private var showingGameOver = false
     @State private var questionCounter: Int = 1
     
     var body: some View {
@@ -84,7 +84,7 @@ struct ContentView: View {
         } message: {
             Text("Your score is \(score)")
         }
-        .alert("Game over", isPresented: $showingGameOver) {
+        .alert("Game over", isPresented: $showingResults) {
             Button("Start another game", action: reset)
         } message: {
             Text("Your final score is \(score)")
@@ -117,7 +117,7 @@ struct ContentView: View {
     
     func askQuestion() {
         if questionCounter > 8 {
-            showingGameOver = true
+            showingResults = true
         }
         
         countries.shuffle()
