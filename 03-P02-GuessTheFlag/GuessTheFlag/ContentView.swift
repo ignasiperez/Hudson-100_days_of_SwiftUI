@@ -30,6 +30,7 @@ struct ContentView: View {
                 endRadius: 700
             )
             .ignoresSafeArea()
+            
             VStack {
                 Spacer()
                 Text("Guess the Flag")
@@ -82,8 +83,10 @@ struct ContentView: View {
     func flagTapped(_ number: Int) {
         if number == correctAnswer {
             scoreTitle = "Correct"
+            score += 1
         } else {
             scoreTitle = "Wrong"
+            score -= 1
         }
         
         showingScore = true
