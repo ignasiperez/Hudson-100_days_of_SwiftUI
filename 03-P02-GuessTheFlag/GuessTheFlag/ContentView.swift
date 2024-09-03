@@ -101,6 +101,9 @@ struct ContentView: View {
         showingScore = true
         
         numberOfQuestions += 1
+        if numberOfQuestions > 8 {
+            showingGameOver = true
+        }
     }
     
     func askQuestion() {
