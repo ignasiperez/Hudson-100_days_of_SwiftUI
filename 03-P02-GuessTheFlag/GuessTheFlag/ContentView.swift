@@ -113,7 +113,10 @@ struct ContentView: View {
     }
     
     private func reset() {
-        print(#function)
+        score = 0
+        numberOfQuestions = 1
+        
+        askQuestion()
     }
     
 } // ContentView
