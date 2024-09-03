@@ -81,7 +81,7 @@ struct ContentView: View {
             Text("Your score is \(score)")
         }
         .alert("Game over", isPresented: $showingGameOver) {
-        
+        Button("Start another game", action: reset)
         } message: {
             Text("Your final score is \(score)")
         }
