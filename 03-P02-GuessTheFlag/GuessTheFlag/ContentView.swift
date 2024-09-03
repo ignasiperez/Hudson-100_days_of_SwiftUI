@@ -14,6 +14,8 @@ struct ContentView: View {
     
     @State private var score: Int = 0
     
+    @State private var showingGameOver = false
+    
     var body: some View {
         ZStack {
             RadialGradient(
