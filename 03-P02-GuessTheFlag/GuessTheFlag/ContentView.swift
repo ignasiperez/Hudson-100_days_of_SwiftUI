@@ -93,6 +93,8 @@ struct ContentView: View {
         }
         
         showingScore = true
+        
+        numberOfQuestions += 1
     }
     
     func askQuestion() {
