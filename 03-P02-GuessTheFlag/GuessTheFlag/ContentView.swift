@@ -80,6 +80,12 @@ struct ContentView: View {
         } message: {
             Text("Your score is \(score)")
         }
+        .alert("Game over", isPresented: $showingGameOver) {
+        
+        } message: {
+            
+        }
+
         
     } // body
     
