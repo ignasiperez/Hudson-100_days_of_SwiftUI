@@ -15,7 +15,7 @@ struct ContentView: View {
     @State private var score: Int = 0
     
     @State private var showingGameOver = false
-    @State private var numberOfQuestions: Int = 0
+    @State private var numberOfQuestions: Int = 1
     
     var body: some View {
         ZStack {
@@ -101,12 +101,13 @@ struct ContentView: View {
         showingScore = true
         
         numberOfQuestions += 1
-        if numberOfQuestions > 8 {
-            showingGameOver = true
-        }
     }
     
     func askQuestion() {
+        if numberOfQuestions > 8 {
+            showingGameOver = true
+        }
+        
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
     }
