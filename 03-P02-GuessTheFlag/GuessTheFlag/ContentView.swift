@@ -111,8 +111,6 @@ struct ContentView: View {
         }
         
         showingScore = true
-        
-        questionCounter += 1
     }
     
     func askQuestion() {
@@ -122,6 +120,7 @@ struct ContentView: View {
         
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
+        questionCounter += 1
     }
     
     private func reset() {
