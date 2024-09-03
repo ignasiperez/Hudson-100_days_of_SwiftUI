@@ -15,6 +15,7 @@ struct ContentView: View {
     @State private var score: Int = 0
     
     @State private var showingGameOver = false
+    @State private var numberOfQuestions: Int = 0
     
     var body: some View {
         ZStack {
