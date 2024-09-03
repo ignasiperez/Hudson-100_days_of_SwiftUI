@@ -98,7 +98,12 @@ struct ContentView: View {
             scoreTitle = "Correct"
             score += 1
         } else {
-            scoreTitle = "Wrong! That’s the flag of \(countries[correctAnswer])"
+            let theirAnswer = countries[number]
+            if countriesWithThePrefix.contains(theirAnswer) {
+                scoreTitle = "Wrong! That’s the flag of the \(theirAnswer)"
+            } else {
+                scoreTitle = "Wrong! That’s the flag of \(theirAnswer)"
+            }
             
             if score > 0 {
                 score -= 1
