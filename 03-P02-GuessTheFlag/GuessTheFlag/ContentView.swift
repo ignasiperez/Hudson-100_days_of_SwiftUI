@@ -6,7 +6,7 @@ struct ContentView: View {
         "Estonia", "France", "Germany", "Ireland",
         "Italy", "Nigeria", "Poland", "Spain",
         "UK", "Ukraine", "US"
-    ].shuffled()
+    ].shuffled()    
     @State private var correctAnswer = Int.random(in: 0...2)
     
     @State private var showingScore = false
@@ -81,11 +81,11 @@ struct ContentView: View {
             Text("Your score is \(score)")
         }
         .alert("Game over", isPresented: $showingGameOver) {
-        Button("Start another game", action: reset)
+            Button("Start another game", action: reset)
         } message: {
             Text("Your final score is \(score)")
         }
-
+        
         
     } // body
     
