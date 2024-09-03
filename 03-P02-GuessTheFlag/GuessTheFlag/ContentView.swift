@@ -99,6 +99,10 @@ struct ContentView: View {
         correctAnswer = Int.random(in: 0...2)
     }
     
+    private func reset() {
+        print(#function)
+    }
+    
 } // ContentView
 
 #Preview {
