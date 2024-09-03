@@ -19,7 +19,7 @@ struct ContentView: View {
     @State private var score: Int = 0
     
     @State private var showingGameOver = false
-    @State private var numberOfQuestions: Int = 1
+    @State private var questionCounter: Int = 1
     
     var body: some View {
         ZStack {
@@ -112,11 +112,11 @@ struct ContentView: View {
         
         showingScore = true
         
-        numberOfQuestions += 1
+        questionCounter += 1
     }
     
     func askQuestion() {
-        if numberOfQuestions > 8 {
+        if questionCounter > 8 {
             showingGameOver = true
         }
         
@@ -126,7 +126,7 @@ struct ContentView: View {
     
     private func reset() {
         score = 0
-        numberOfQuestions = 1
+        questionCounter = 1
         
         askQuestion()
     }
