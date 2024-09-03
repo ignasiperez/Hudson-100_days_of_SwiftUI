@@ -2,6 +2,11 @@
 import SwiftUI
 
 struct ContentView: View {
+    static let allCountries = [
+        "Estonia", "France", "Germany", "Ireland",
+        "Italy", "Nigeria", "Poland", "Spain",
+        "UK", "Ukraine", "US"
+    ]
     @State private var countries = [
         "Estonia", "France", "Germany", "Ireland",
         "Italy", "Nigeria", "Poland", "Spain",
