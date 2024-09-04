@@ -167,6 +167,13 @@
 			path = WeSplit;
 			sourceTree = "<group>";
 		};
+		6B71CB502C885BB0008AE70C /* ViewsAndModifiers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsAndModifiers;
+			sourceTree = "<group>";
+		};
 		6BB165672C736EED00D9DBCB = {
 			isa = PBXGroup;
 			children = (
@@ -189,6 +196,7 @@
 				6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */,
 				6B312B1A2C73735D0041A9D8 /* WeSplit */,
 				6B27A6742C74F1E000F1CE3F /* GuessTheFlag */,
+				6B71CB502C885BB0008AE70C /* ViewsAndModifiers */,
 				6BB165772C736EEE00D9DBCB /* Assets.xcassets */,
 				6BB165792C736EEE00D9DBCB /* Preview Content */,
 			);

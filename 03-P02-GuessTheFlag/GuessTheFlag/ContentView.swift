@@ -127,7 +127,8 @@ struct ContentView: View {
     
     private func newGame() {
         score = 0
-        questionCounter = 1
+        questionCounter = 0
+        countries = Self.allCountries
         
         askQuestion()
     }
