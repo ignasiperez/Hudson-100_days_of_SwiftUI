@@ -7,7 +7,7 @@ struct Button_background_frame: View {
             print(type(of: self.body))
             // ModifiedContent<ModifiedContent<Button<Text>, _BackgroundStyleModifier<Color>>, _FrameLayout>
         }
-        .background(.red)
+        .background(.orange)
         .frame(width: 200, height: 200)
     }
 }
