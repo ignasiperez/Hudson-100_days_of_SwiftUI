@@ -31,6 +31,7 @@
 		6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */; };
 		6B58FF5B2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */; };
 		6B60B5602C76441E0036A99B /* LinearGradient_colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */; };
+		6B71CB522C8870D6008AE70C /* VStack_padding_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71CB512C8870D6008AE70C /* VStack_padding_background.swift */; };
 		6BA9E40A2C7AE7C6000C6388 /* Button_systemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9E4092C7AE7C6000C6388 /* Button_systemImage.swift */; };
 		6BB165742C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */; };
 		6BB165762C736EED00D9DBCB /* Form_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165752C736EED00D9DBCB /* Form_Text.swift */; };
@@ -78,6 +79,7 @@
 		6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_ultraThinMaterial.swift; sourceTree = "<group>"; };
 		6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_label_Image_systemImage.swift; sourceTree = "<group>"; };
 		6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_colors.swift; sourceTree = "<group>"; };
+		6B71CB512C8870D6008AE70C /* VStack_padding_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_padding_background.swift; sourceTree = "<group>"; };
 		6BA9E4092C7AE7C6000C6388 /* Button_systemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_systemImage.swift; sourceTree = "<group>"; };
 		6BB165702C736EED00D9DBCB /* SwiftUI_Projects_Overviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Projects_Overviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Projects_OverviewsApp.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 		6B71CB502C885BB0008AE70C /* ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
+				6B71CB512C8870D6008AE70C /* VStack_padding_background.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -308,6 +311,7 @@
 				6B312B282C7386160041A9D8 /* ForEach_Range_shorthandSyntax.swift in Sources */,
 				6B312B222C737BB70041A9D8 /* State_TapCount.swift in Sources */,
 				6BFBE8882C774A4800617D39 /* Button_titleKey_action.swift in Sources */,
+				6B71CB522C8870D6008AE70C /* VStack_padding_background.swift in Sources */,
 				6BFBE8842C7740CD00617D39 /* AngularGradient_colors.swift in Sources */,
 				6BFBE8802C773AA700617D39 /* LinearGradient_stops2.swift in Sources */,
 				6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */,
