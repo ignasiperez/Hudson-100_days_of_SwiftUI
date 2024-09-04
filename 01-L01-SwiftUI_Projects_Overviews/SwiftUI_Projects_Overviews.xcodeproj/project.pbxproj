@@ -30,6 +30,7 @@
 		6B5091B02C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091AF2C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift */; };
 		6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */; };
 		6B5743C12C88A9BA005BA66D /* Button_frame_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5743C02C88A9BA005BA66D /* Button_frame_background.swift */; };
+		6B5743C32C88C686005BA66D /* Text_padding_background_padding_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */; };
 		6B58FF5B2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */; };
 		6B60B5602C76441E0036A99B /* LinearGradient_colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */; };
 		6B71CB522C8870D6008AE70C /* VStack_padding_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71CB512C8870D6008AE70C /* VStack_padding_background.swift */; };
@@ -81,6 +82,7 @@
 		6B5091AF2C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_ignoresSafeArea.swift; sourceTree = "<group>"; };
 		6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_ultraThinMaterial.swift; sourceTree = "<group>"; };
 		6B5743C02C88A9BA005BA66D /* Button_frame_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_frame_background.swift; sourceTree = "<group>"; };
+		6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_padding_background_padding_background.swift; sourceTree = "<group>"; };
 		6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_label_Image_systemImage.swift; sourceTree = "<group>"; };
 		6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_colors.swift; sourceTree = "<group>"; };
 		6B71CB512C8870D6008AE70C /* VStack_padding_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_padding_background.swift; sourceTree = "<group>"; };
@@ -182,6 +184,7 @@
 				6B71CB532C887532008AE70C /* VStack_frame_background.swift */,
 				6B71CB552C887894008AE70C /* Button_background_frame.swift */,
 				6B5743C02C88A9BA005BA66D /* Button_frame_background.swift */,
+				6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 				6B06DC9F2C7906C200D5FAE8 /* Button_action_label.swift in Sources */,
 				6B27A67E2C74F7A100F1CE3F /* VStack_Spacer.swift in Sources */,
 				6BB165742C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift in Sources */,
+				6B5743C32C88C686005BA66D /* Text_padding_background_padding_background.swift in Sources */,
 				6B312B1C2C7373D60041A9D8 /* Form_Text_Section.swift in Sources */,
 				6B27A67A2C74F45000F1CE3F /* VStack_spacing.swift in Sources */,
 				6B312B282C7386160041A9D8 /* ForEach_Range_shorthandSyntax.swift in Sources */,
