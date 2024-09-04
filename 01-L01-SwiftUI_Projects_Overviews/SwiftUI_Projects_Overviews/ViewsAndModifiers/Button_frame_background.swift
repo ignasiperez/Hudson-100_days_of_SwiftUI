@@ -1,3 +1,6 @@
+//
+// §print(§type(of:))
+//
 
 import SwiftUI
 
