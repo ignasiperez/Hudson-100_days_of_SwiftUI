@@ -1,8 +1,6 @@
 //
-//  VStack_blur_Text_blur.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 5/9/24.
+// Apply a .blur regular modifier to a VStack container
+//      Add a .blur regular modifier to a Text view
 //
 
 import SwiftUI
