@@ -22,6 +22,7 @@
 		6B312B262C7383F60041A9D8 /* ForEach_Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B312B252C7383F60041A9D8 /* ForEach_Range.swift */; };
 		6B312B282C7386160041A9D8 /* ForEach_Range_shorthandSyntax.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B312B272C7386160041A9D8 /* ForEach_Range_shorthandSyntax.swift */; };
 		6B312B2A2C73877E0041A9D8 /* ForEach_Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B312B292C73877E0041A9D8 /* ForEach_Picker.swift */; };
+		6B4B02C82C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4B02C72C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift */; };
 		6B504F6A2C7DD97300B8AE4D /* Button_alert_Button_role.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B504F692C7DD97300B8AE4D /* Button_alert_Button_role.swift */; };
 		6B5091A82C75E607006AFE4E /* ZStack_Color_frame_minWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091A72C75E607006AFE4E /* ZStack_Color_frame_minWidth.swift */; };
 		6B5091AA2C75EDA7006AFE4E /* ZStack_Color_semanticColors1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091A92C75EDA7006AFE4E /* ZStack_Color_semanticColors1.swift */; };
@@ -75,6 +76,7 @@
 		6B312B252C7383F60041A9D8 /* ForEach_Range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_Range.swift; sourceTree = "<group>"; };
 		6B312B272C7386160041A9D8 /* ForEach_Range_shorthandSyntax.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_Range_shorthandSyntax.swift; sourceTree = "<group>"; };
 		6B312B292C73877E0041A9D8 /* ForEach_Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEach_Picker.swift; sourceTree = "<group>"; };
+		6B4B02C72C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_foregroundStyle_conditionalModifiers.swift; sourceTree = "<group>"; };
 		6B504F692C7DD97300B8AE4D /* Button_alert_Button_role.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_alert_Button_role.swift; sourceTree = "<group>"; };
 		6B5091A72C75E607006AFE4E /* ZStack_Color_frame_minWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_frame_minWidth.swift; sourceTree = "<group>"; };
 		6B5091A92C75EDA7006AFE4E /* ZStack_Color_semanticColors1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_semanticColors1.swift; sourceTree = "<group>"; };
@@ -188,6 +190,7 @@
 				6B5743C02C88A9BA005BA66D /* Button_frame_background.swift */,
 				6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */,
 				6B5743C42C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift */,
+				6B4B02C72C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 				6BFBE8802C773AA700617D39 /* LinearGradient_stops2.swift in Sources */,
 				6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */,
 				6BC561952C74FA4100C27484 /* VStack_Spacers.swift in Sources */,
+				6B4B02C82C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift in Sources */,
 				6B5091AC2C75EF1E006AFE4E /* ZStack_Color_semanticColors2.swift in Sources */,
 				6B504F6A2C7DD97300B8AE4D /* Button_alert_Button_role.swift in Sources */,
 				6B312B1E2C7375D70041A9D8 /* NavigationStack_Form_Text_Section.swift in Sources */,
