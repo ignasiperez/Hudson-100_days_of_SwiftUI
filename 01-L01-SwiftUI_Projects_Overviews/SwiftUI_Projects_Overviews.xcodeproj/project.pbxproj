@@ -43,6 +43,7 @@
 		6BB165762C736EED00D9DBCB /* Form_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165752C736EED00D9DBCB /* Form_Text.swift */; };
 		6BB165782C736EEE00D9DBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB165772C736EEE00D9DBCB /* Assets.xcassets */; };
 		6BB1657B2C736EEE00D9DBCB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB1657A2C736EEE00D9DBCB /* Preview Assets.xcassets */; };
+		6BBDF3712C89D52E00CE87A1 /* VStack_font_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BBDF3702C89D52E00CE87A1 /* VStack_font_Text.swift */; };
 		6BC561952C74FA4100C27484 /* VStack_Spacers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC561942C74FA4100C27484 /* VStack_Spacers.swift */; };
 		6BC561972C74FBA200C27484 /* ZStack_background1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC561962C74FBA200C27484 /* ZStack_background1.swift */; };
 		6BC561992C74FEF400C27484 /* ZStack_background2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC561982C74FEF400C27484 /* ZStack_background2.swift */; };
@@ -98,6 +99,7 @@
 		6BB165752C736EED00D9DBCB /* Form_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_Text.swift; sourceTree = "<group>"; };
 		6BB165772C736EEE00D9DBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BB1657A2C736EEE00D9DBCB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6BBDF3702C89D52E00CE87A1 /* VStack_font_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_font_Text.swift; sourceTree = "<group>"; };
 		6BC561942C74FA4100C27484 /* VStack_Spacers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Spacers.swift; sourceTree = "<group>"; };
 		6BC561962C74FBA200C27484 /* ZStack_background1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_background1.swift; sourceTree = "<group>"; };
 		6BC561982C74FEF400C27484 /* ZStack_background2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_background2.swift; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 				6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */,
 				6B5743C42C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift */,
 				6B4B02C72C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift */,
+				6BBDF3702C89D52E00CE87A1 /* VStack_font_Text.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				6BFBE88C2C778F9D00617D39 /* Button_titleKey_role_action.swift in Sources */,
 				6BFBE8862C77445C00617D39 /* Text_frame_background_Color_gradient.swift in Sources */,
 				6B58FF5B2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift in Sources */,
+				6BBDF3712C89D52E00CE87A1 /* VStack_font_Text.swift in Sources */,
 				6BFBE8822C773D9700617D39 /* RadialGradient_colors.swift in Sources */,
 				6B27A6762C74F2DE00F1CE3F /* VStack_implicit.swift in Sources */,
 				6B312B202C73791A0041A9D8 /* NavigationStack_Form_navigationTitle.swift in Sources */,
