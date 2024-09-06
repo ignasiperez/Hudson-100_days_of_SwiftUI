@@ -6,7 +6,7 @@ import SwiftUI
 
 struct GroupAsComputedProperty: View {
     var spells: some View {
-        VStack {
+        Group {
             Text("Lumos")
             Text("Obliviate")
         }
