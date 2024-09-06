@@ -1,5 +1,6 @@
 //
 // Create two Text views as properties inside a VStack
+//      Apply .foregroundStyle modifiers
 //
 
 import SwiftUI
@@ -11,7 +12,9 @@ struct VStack_TextAsProperty: View {
     var body: some View {
         VStack {
             motto1
+                .foregroundStyle(.red)
             motto2
+                .foregroundStyle(.blue)
         }
     }
 }
