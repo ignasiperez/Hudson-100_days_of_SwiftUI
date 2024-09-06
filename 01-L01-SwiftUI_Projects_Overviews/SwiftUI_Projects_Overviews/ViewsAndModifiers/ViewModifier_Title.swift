@@ -1,5 +1,5 @@
 //
-// Create a custom §ViewModifier struct and use it with the .modifier() modifier to style a Text view 
+// Create a custom §ViewModifier struct and use it with the .modifier() modifier to style a Text view
 //
 
 import SwiftUI
@@ -15,10 +15,17 @@ struct Title: ViewModifier {
     }
 }
 
+extension View {
+    func titleStyle() -> some View {
+        modifier(Title())
+    }
+}
+
 struct ViewModifier_Title: View {
     var body: some View {
         Text("Hello, World!")
-            .modifier(Title())
+//          .modifier(Title())
+            .titleStyle()
     }
 }
 
