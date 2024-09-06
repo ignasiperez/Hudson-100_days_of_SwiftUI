@@ -60,6 +60,7 @@
 		6BC5619B2C74FF8D00C27484 /* ZStack_Color_frame_wholeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5619A2C74FF8D00C27484 /* ZStack_Color_frame_wholeArea.swift */; };
 		6BC5619D2C75015200C27484 /* ZStack_Color_specificSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BC5619C2C75015200C27484 /* ZStack_Color_specificSize.swift */; };
 		6BE4CD642C7B83EA00B47692 /* Button_label_Label.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BE4CD632C7B83EA00B47692 /* Button_label_Label.swift */; };
+		6BF8441E2C8B5CF000C14FB6 /* ViewModifier_Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF8441D2C8B5CF000C14FB6 /* ViewModifier_Title.swift */; };
 		6BF876DD2C7CE7FD006002F4 /* Button_alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF876DC2C7CE7FD006002F4 /* Button_alert.swift */; };
 		6BFBE87E2C7737C800617D39 /* LinearGradient_stops1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBE87D2C7737C800617D39 /* LinearGradient_stops1.swift */; };
 		6BFBE8802C773AA700617D39 /* LinearGradient_stops2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFBE87F2C773AA700617D39 /* LinearGradient_stops2.swift */; };
@@ -126,6 +127,7 @@
 		6BC5619A2C74FF8D00C27484 /* ZStack_Color_frame_wholeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_frame_wholeArea.swift; sourceTree = "<group>"; };
 		6BC5619C2C75015200C27484 /* ZStack_Color_specificSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_specificSize.swift; sourceTree = "<group>"; };
 		6BE4CD632C7B83EA00B47692 /* Button_label_Label.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_label_Label.swift; sourceTree = "<group>"; };
+		6BF8441D2C8B5CF000C14FB6 /* ViewModifier_Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier_Title.swift; sourceTree = "<group>"; };
 		6BF876DC2C7CE7FD006002F4 /* Button_alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_alert.swift; sourceTree = "<group>"; };
 		6BFBE87D2C7737C800617D39 /* LinearGradient_stops1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_stops1.swift; sourceTree = "<group>"; };
 		6BFBE87F2C773AA700617D39 /* LinearGradient_stops2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_stops2.swift; sourceTree = "<group>"; };
@@ -224,6 +226,7 @@
 				6B089D322C8B12700000C814 /* ViewBuilder_GroupAsComputedProperty.swift */,
 				6B089D342C8B15710000C814 /* VStack_Text_clipShape.swift */,
 				6B089D362C8B1AC70000C814 /* VStack_CapsuleText.swift */,
+				6BF8441D2C8B5CF000C14FB6 /* ViewModifier_Title.swift */,
 			);
 			path = ViewsAndModifiers;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				6B312B222C737BB70041A9D8 /* State_TapCount.swift in Sources */,
 				6BFBE8882C774A4800617D39 /* Button_titleKey_action.swift in Sources */,
 				6B71CB522C8870D6008AE70C /* VStack_padding_background.swift in Sources */,
+				6BF8441E2C8B5CF000C14FB6 /* ViewModifier_Title.swift in Sources */,
 				6BFBE8842C7740CD00617D39 /* AngularGradient_colors.swift in Sources */,
 				6BFBE8802C773AA700617D39 /* LinearGradient_stops2.swift in Sources */,
 				6B089D372C8B1AC70000C814 /* VStack_CapsuleText.swift in Sources */,
