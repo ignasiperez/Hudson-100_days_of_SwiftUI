@@ -24,12 +24,12 @@ struct GridStack<Content: View>: View {
     }
 } // GridStack
 
-struct ViewModifier_GridStack: View {
+struct CustomContainer_GridStack: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Hello, World!")
     }
 }
 
 #Preview {
-    ViewModifier_GridStack()
+    CustomContainer_GridStack()
 }
