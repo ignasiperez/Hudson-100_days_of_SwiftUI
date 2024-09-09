@@ -3,6 +3,8 @@
 //
 //      Implement the body property with a call to content(row, column) closure wrapped in a ForEach, HStack, ForEach and VStack
 //
+//      Use the #custom container with an Image and a Text view
+//
 
 import SwiftUI
 
@@ -26,7 +28,13 @@ struct GridStack<Content: View>: View {
 
 struct CustomContainer_GridStack: View {
     var body: some View {
-        Text("Hello, World!")
+        GridStack(rows: 4, columns: 4) { row, col in
+            HStack {
+                Image(systemName: "\(row * 4 + col).circle")
+                Text("R\(row) C\(col)")
+            }
+            
+        }
     }
 }
 
