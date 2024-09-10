@@ -58,9 +58,7 @@ struct ContentView: View {
                         Button(action: {
                             flagTapped(number)
                         }, label: {
-                            Image(countries[number])
-                                .clipShape(.capsule)
-                                .shadow(radius: 5)
+                            FlagImage(name: countries[number])
                         })
                     }
                 } // VStack
