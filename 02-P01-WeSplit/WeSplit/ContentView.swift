@@ -1,9 +1,3 @@
-//
-//  ContentView.swift
-//  WeSplit
-//
-//  Created by Ignasi Perez-Valls on 12/8/24.
-//
 
 import SwiftUI
 
@@ -88,8 +82,8 @@ struct ContentView: View {
                         format: .currency(
                             code: Locale.current.currency?.identifier ?? "USD"
                         )
-                    
                     )
+                    .foregroundStyle(tipPercentage == 0 ? .red : .primary)
                 }
                 
                 Section("Total per person") {
