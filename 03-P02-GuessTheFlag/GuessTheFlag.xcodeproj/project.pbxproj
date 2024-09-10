@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B46C6322C9098C300803796 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46C6312C9098C300803796 /* ViewModifiers.swift */; };
 		6B504F782C7DF0D300B8AE4D /* GuessTheFlagApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B504F772C7DF0D300B8AE4D /* GuessTheFlagApp.swift */; };
 		6B504F7A2C7DF0D300B8AE4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B504F792C7DF0D300B8AE4D /* ContentView.swift */; };
 		6B504F7C2C7DF0D500B8AE4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B504F7B2C7DF0D500B8AE4D /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6B46C6312C9098C300803796 /* ViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifiers.swift; sourceTree = "<group>"; };
 		6B504F742C7DF0D300B8AE4D /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B504F772C7DF0D300B8AE4D /* GuessTheFlagApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessTheFlagApp.swift; sourceTree = "<group>"; };
 		6B504F792C7DF0D300B8AE4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -34,6 +36,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B46C6302C90983000803796 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6B46C6312C9098C300803796 /* ViewModifiers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		6B504F6B2C7DF0D300B8AE4D = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 				6B504F772C7DF0D300B8AE4D /* GuessTheFlagApp.swift */,
 				6B504F792C7DF0D300B8AE4D /* ContentView.swift */,
 				6B86C8712C906DAF00EDD896 /* FlagImage.swift */,
+				6B46C6302C90983000803796 /* Extensions */,
 				6B504F7B2C7DF0D500B8AE4D /* Assets.xcassets */,
 				6B504F7D2C7DF0D500B8AE4D /* Preview Content */,
 			);
@@ -143,6 +154,7 @@
 				6B504F7A2C7DF0D300B8AE4D /* ContentView.swift in Sources */,
 				6B86C8722C906DAF00EDD896 /* FlagImage.swift in Sources */,
 				6B504F782C7DF0D300B8AE4D /* GuessTheFlagApp.swift in Sources */,
+				6B46C6322C9098C300803796 /* ViewModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

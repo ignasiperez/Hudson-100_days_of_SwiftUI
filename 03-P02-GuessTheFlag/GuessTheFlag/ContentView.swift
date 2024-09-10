@@ -42,8 +42,7 @@ struct ContentView: View {
             VStack {
                 Spacer()
                 Text("Guess the Flag")
-                    .font(.largeTitle.bold())
-                    .foregroundStyle(.white)
+                    .titleStyle()
                 
                 VStack(spacing: 15) {
                     VStack {
