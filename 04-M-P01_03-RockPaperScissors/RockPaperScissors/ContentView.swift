@@ -4,6 +4,8 @@ import SwiftUI
 struct ContentView: View {
     private let moves = ["rock", "paper", "scissors"]
     
+    private var randomMove = Int.random(in: 0...2)
+    
     @State private var currentChoice: String = ""
     @State private var playerShouldWin = Bool.random()
     
