@@ -40,6 +40,8 @@ struct ContentView: View {
                      .font(.system(size: 80))
                  }
             }
+            
+            Spacer()
         }
         .padding()
     }
