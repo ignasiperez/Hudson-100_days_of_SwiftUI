@@ -45,10 +45,12 @@ struct ContentView: View {
             
             Text("Score: ???")
                 .font(.subheadline)
+            
+            Spacer()
         }
         .padding()
     }
-}
+} // ContentView
 
 #Preview {
     ContentView()
