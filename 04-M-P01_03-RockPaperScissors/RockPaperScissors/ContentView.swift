@@ -35,7 +35,7 @@ struct ContentView: View {
             HStack {
                 ForEach(0..<3) { number in
                      Button(moves[number]) {
-                         // Handle move tap
+                         play(choice: number)
                      }
                      .font(.system(size: 80))
                  }
@@ -49,7 +49,13 @@ struct ContentView: View {
             Spacer()
         }
         .padding()
+    } // body
+    
+    func play(choice: Int) {
+        print(#function)
+        print(" - choice: \(choice)")
     }
+    
 } // ContentView
 
 #Preview {
