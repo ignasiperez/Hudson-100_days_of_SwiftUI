@@ -31,6 +31,10 @@ struct ContentView: View {
                     .foregroundStyle(.red)
                     .font(.title)
             }
+            
+            HStack {
+
+            }
         }
         .padding()
     }
