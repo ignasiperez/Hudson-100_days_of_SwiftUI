@@ -54,6 +54,8 @@ struct ContentView: View {
     func play(choice: Int) {
         print(#function)
         print(" - choice: \(choice)")
+        
+        let winningMoves = [1, 2, 0]
     }
     
 } // ContentView
