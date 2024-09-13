@@ -33,7 +33,12 @@ struct ContentView: View {
             }
             
             HStack {
-
+                ForEach(0..<3) { number in
+                     Button(moves[number]) {
+                         // Handle move tap
+                     }
+                     .font(.system(size: 80))
+                 }
             }
         }
         .padding()
