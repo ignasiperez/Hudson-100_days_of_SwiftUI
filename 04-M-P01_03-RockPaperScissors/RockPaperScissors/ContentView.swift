@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let moves = ["rock", "paper", "scissors"]
+    private let moves = ["✊", "✋", "✌️"]
     
     private var randomMove = Int.random(in: 0...2)
     
