@@ -7,7 +7,7 @@ struct ContentView: View {
     private var computerChoice = Int.random(in: 0..<3)
     
     @State private var currentChoice: String = ""
-    @State private var playerShouldWin = Bool.random()
+    @State private var shouldWin = Bool.random()
     
     @State private var score: Int = 0
     
