@@ -20,6 +20,17 @@ struct ContentView: View {
             
             Text("\(moves[computerChoice])")
                      .font(.system(size: 200))
+            
+            if shouldWin {
+                Text("Which should win?")
+                    .foregroundStyle(.green)
+                    .font(.title)
+            }
+            else {
+                Text("Which one loses?")
+                    .foregroundStyle(.red)
+                    .font(.title)
+            }
         }
         .padding()
     }
