@@ -17,6 +17,9 @@ struct ContentView: View {
             
             Text("Computer has played...")
                 .font(.headline)
+            
+            Text("\(moves[computerChoice])")
+                     .font(.system(size: 200))
         }
         .padding()
     }
