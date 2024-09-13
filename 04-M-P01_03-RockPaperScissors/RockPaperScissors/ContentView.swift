@@ -13,6 +13,8 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
+            Spacer()
+            
             Text("Computer has played...")
                 .font(.headline)
         }
