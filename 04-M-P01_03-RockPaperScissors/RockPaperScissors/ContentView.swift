@@ -11,6 +11,8 @@ struct ContentView: View {
     
     @State private var score: Int = 0
     
+    @State private var numberOfQuestions = 0
+    
     var body: some View {
         VStack {
             Spacer()
