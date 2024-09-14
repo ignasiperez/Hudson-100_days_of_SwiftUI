@@ -58,12 +58,13 @@ struct ContentView: View {
         let winningMoves = [1, 2, 0]
         let didWin: Bool
         
+        print(" - shouldWin: \(shouldWin)")
         if shouldWin {
             let correctAnswer = winningMoves[computerChoice]
             print(" - correctAnswer: \(correctAnswer)")
             didWin = choice == correctAnswer
         } else {
-            didWin = false
+            didWin = winningMoves[choice] == computerChoice
         }
         
         print(" - didWin: \(didWin)")
