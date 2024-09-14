@@ -43,7 +43,7 @@ struct ContentView: View {
             
             Spacer()
             
-            Text("Score: ???")
+            Text("Score: \(score)")
                 .font(.subheadline)
             
             Spacer()
