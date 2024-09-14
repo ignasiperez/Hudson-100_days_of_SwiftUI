@@ -56,6 +56,7 @@ struct ContentView: View {
         print(" - choice: \(choice)")
         
         let winningMoves = [1, 2, 0]
+        let didWin: Bool
     }
     
 } // ContentView
