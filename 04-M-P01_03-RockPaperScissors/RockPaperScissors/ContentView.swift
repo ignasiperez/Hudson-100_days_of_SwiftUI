@@ -52,6 +52,11 @@ struct ContentView: View {
             Spacer()
         } // VStack
         .padding()
+        .alert("Game over", isPresented: $showingResults) {
+            // Handle the action
+        } message: {
+            
+        }
     } // body
     
     func play(choice: Int) {
