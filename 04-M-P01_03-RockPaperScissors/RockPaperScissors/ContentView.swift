@@ -75,6 +75,8 @@ struct ContentView: View {
         } else  {
             score -= 1
         }
+        
+        questionCounter += 1
     }
     
 } // ContentView
