@@ -12,6 +12,7 @@ struct ContentView: View {
     @State private var score: Int = 0
     
     @State private var questionCounter = 1
+    @State private var showingResults = false
     
     var body: some View {
         VStack {
@@ -49,7 +50,7 @@ struct ContentView: View {
                 .font(.subheadline)
             
             Spacer()
-        }
+        } // VStack
         .padding()
     } // body
     
