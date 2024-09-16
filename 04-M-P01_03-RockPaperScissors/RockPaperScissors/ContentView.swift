@@ -4,7 +4,7 @@ import SwiftUI
 struct ContentView: View {
     private let moves = ["✊", "✋", "✌️"]
     
-    private var computerChoice = Int.random(in: 0..<3)
+    @State private var computerChoice = Int.random(in: 0..<3)
     
     @State private var currentChoice: String = ""
     @State private var shouldWin = Bool.random()
@@ -78,6 +78,8 @@ struct ContentView: View {
         }
         
         questionCounter += 1
+                
+        computerChoice = Int.random(in: 0..<3)
     }
     
     private func newGame() {
