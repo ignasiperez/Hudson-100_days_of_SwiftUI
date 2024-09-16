@@ -53,7 +53,9 @@ struct ContentView: View {
         } // VStack
         .padding()
         .alert("Game over", isPresented: $showingResults) {
-            // Handle the action
+            Button("Start again") {
+                newGame()
+            }
         } message: {
             Text("Your final score was \(score)")
         }
@@ -94,7 +96,7 @@ struct ContentView: View {
     }
     
     private func newGame() {
-        
+        print(#function)
     }
     
 } // ContentView
