@@ -96,7 +96,10 @@ struct ContentView: View {
     }
     
     private func newGame() {
-        print(#function)
+        print("\n \(#function)")
+        
+        score = 0
+        questionCounter = 0
     }
     
 } // ContentView
