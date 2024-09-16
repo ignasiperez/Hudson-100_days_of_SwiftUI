@@ -80,6 +80,10 @@ struct ContentView: View {
         questionCounter += 1
     }
     
+    private func newGame() {
+        
+    }
+    
 } // ContentView
 
 #Preview {
