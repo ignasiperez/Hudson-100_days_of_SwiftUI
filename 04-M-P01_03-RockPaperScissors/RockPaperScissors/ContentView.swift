@@ -55,7 +55,7 @@ struct ContentView: View {
         .alert("Game over", isPresented: $showingResults) {
             // Handle the action
         } message: {
-            
+            Text("Your final score was \(score)")
         }
     } // body
     
