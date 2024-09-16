@@ -11,7 +11,7 @@ struct ContentView: View {
     
     @State private var score: Int = 0
     
-    @State private var questionCounter = 1
+    @State private var questionCounter = 0
     @State private var showingResults = false
     
     var body: some View {
@@ -78,6 +78,10 @@ struct ContentView: View {
         }
         
         questionCounter += 1
+        
+        if questionCounter == 8 {
+            showingResults = true
+        }
         
         shouldWin.toggle()
         
