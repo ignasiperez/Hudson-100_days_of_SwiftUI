@@ -84,19 +84,20 @@ struct ContentView: View {
             score -= 1
         }
         
-        questionCounter += 1
-        
         if questionCounter == 8 {
             showingResults = true
+        } else {
+            computerChoice = Int.random(in: 0..<3)
+            shouldWin.toggle()
+            questionCounter += 1
         }
-        
-        shouldWin.toggle()
-        
-        computerChoice = Int.random(in: 0..<3)
     }
     
     private func newGame() {
         print("\n \(#function)")
+        
+        computerChoice = Int.random(in: 0..<3)
+        shouldWin = Bool.random()
         
         score = 0
         questionCounter = 0
