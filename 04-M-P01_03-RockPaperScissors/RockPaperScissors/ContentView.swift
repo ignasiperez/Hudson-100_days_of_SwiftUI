@@ -22,7 +22,7 @@ struct ContentView: View {
                 .font(.headline)
             
             Text("\(moves[computerChoice])")
-                     .font(.system(size: 200))
+                .font(.system(size: 200))
             
             if shouldWin {
                 Text("Which should win?")
@@ -37,11 +37,11 @@ struct ContentView: View {
             
             HStack {
                 ForEach(0..<3) { number in
-                     Button(moves[number]) {
-                         play(choice: number)
-                     }
-                     .font(.system(size: 80))
-                 }
+                    Button(moves[number]) {
+                        play(choice: number)
+                    }
+                    .font(.system(size: 80))
+                }
             }
             
             Spacer()
@@ -78,7 +78,9 @@ struct ContentView: View {
         }
         
         questionCounter += 1
-                
+        
+        shouldWin.toggle()
+        
         computerChoice = Int.random(in: 0..<3)
     }
     
