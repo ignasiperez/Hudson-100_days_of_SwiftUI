@@ -53,6 +53,7 @@
 		6BA5FCBE2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5FCBD2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift */; };
 		6BA5FCC02C99DB7B00B19D37 /* Stepper_LocalizedStringKey_value_in_step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5FCBF2C99DB7B00B19D37 /* Stepper_LocalizedStringKey_value_in_step.swift */; };
 		6BA9E40A2C7AE7C6000C6388 /* Button_systemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9E4092C7AE7C6000C6388 /* Button_systemImage.swift */; };
+		6BAF19292CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF19282CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift */; };
 		6BB165742C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */; };
 		6BB165762C736EED00D9DBCB /* Form_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165752C736EED00D9DBCB /* Form_Text.swift */; };
 		6BB165782C736EEE00D9DBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB165772C736EEE00D9DBCB /* Assets.xcassets */; };
@@ -127,6 +128,7 @@
 		6BA5FCBD2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LocalizedStringKey_value_in.swift; sourceTree = "<group>"; };
 		6BA5FCBF2C99DB7B00B19D37 /* Stepper_LocalizedStringKey_value_in_step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LocalizedStringKey_value_in_step.swift; sourceTree = "<group>"; };
 		6BA9E4092C7AE7C6000C6388 /* Button_systemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_systemImage.swift; sourceTree = "<group>"; };
+		6BAF19282CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift; sourceTree = "<group>"; };
 		6BB165702C736EED00D9DBCB /* SwiftUI_Projects_Overviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Projects_Overviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Projects_OverviewsApp.swift; sourceTree = "<group>"; };
 		6BB165752C736EED00D9DBCB /* Form_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_Text.swift; sourceTree = "<group>"; };
@@ -258,6 +260,7 @@
 				6BA5FCBF2C99DB7B00B19D37 /* Stepper_LocalizedStringKey_value_in_step.swift */,
 				6B62BDCE2C9D7F7E00BEC28B /* Stepper_LocalizedStringKey_value_in_step_formatted.swift */,
 				6BE03AC62CA038E600C4B971 /* DatePicker_LocalizedStringKey_selection_displayedComponents.swift */,
+				6BAF19282CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift */,
 			);
 			path = BetterRest;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				6B27A67A2C74F45000F1CE3F /* VStack_spacing.swift in Sources */,
 				6B089D2D2C8B0D220000C814 /* VStack_TextAsComputedProperty.swift in Sources */,
 				6B089D332C8B12700000C814 /* ViewBuilder_GroupAsComputedProperty.swift in Sources */,
+				6BAF19292CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift in Sources */,
 				6B089D2B2C8B0B110000C814 /* VStack_TextAsProperty.swift in Sources */,
 				6B312B282C7386160041A9D8 /* ForEach_Range_shorthandSyntax.swift in Sources */,
 				6B312B222C737BB70041A9D8 /* State_TapCount.swift in Sources */,
