@@ -39,6 +39,7 @@
 		6B5091AE2C75F050006AFE4E /* ZStack_Color_RGBCostumeValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091AD2C75F050006AFE4E /* ZStack_Color_RGBCostumeValues.swift */; };
 		6B5091B02C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091AF2C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift */; };
 		6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */; };
+		6B5363EE2CA16ECA00245C9F /* DatePicker_LocalizedStringKey_selection_displayedComponents_range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5363ED2CA16ECA00245C9F /* DatePicker_LocalizedStringKey_selection_displayedComponents_range.swift */; };
 		6B5743C12C88A9BA005BA66D /* Button_frame_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5743C02C88A9BA005BA66D /* Button_frame_background.swift */; };
 		6B5743C32C88C686005BA66D /* Text_padding_background_padding_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */; };
 		6B5743C52C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5743C42C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift */; };
@@ -114,6 +115,7 @@
 		6B5091AD2C75F050006AFE4E /* ZStack_Color_RGBCostumeValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_RGBCostumeValues.swift; sourceTree = "<group>"; };
 		6B5091AF2C75F5D3006AFE4E /* ZStack_Color_ignoresSafeArea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_ignoresSafeArea.swift; sourceTree = "<group>"; };
 		6B5091B12C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZStack_Color_ultraThinMaterial.swift; sourceTree = "<group>"; };
+		6B5363ED2CA16ECA00245C9F /* DatePicker_LocalizedStringKey_selection_displayedComponents_range.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_LocalizedStringKey_selection_displayedComponents_range.swift; sourceTree = "<group>"; };
 		6B5743C02C88A9BA005BA66D /* Button_frame_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_frame_background.swift; sourceTree = "<group>"; };
 		6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_padding_background_padding_background.swift; sourceTree = "<group>"; };
 		6B5743C42C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueReturnTypes_body_Text_Text.swift; sourceTree = "<group>"; };
@@ -261,6 +263,7 @@
 				6B62BDCE2C9D7F7E00BEC28B /* Stepper_LocalizedStringKey_value_in_step_formatted.swift */,
 				6BE03AC62CA038E600C4B971 /* DatePicker_LocalizedStringKey_selection_displayedComponents.swift */,
 				6BAF19282CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift */,
+				6B5363ED2CA16ECA00245C9F /* DatePicker_LocalizedStringKey_selection_displayedComponents_range.swift */,
 			);
 			path = BetterRest;
 			sourceTree = "<group>";
@@ -429,6 +432,7 @@
 				6B5091AC2C75EF1E006AFE4E /* ZStack_Color_semanticColors2.swift in Sources */,
 				6B089D352C8B15710000C814 /* VStack_Text_clipShape.swift in Sources */,
 				6B504F6A2C7DD97300B8AE4D /* Button_alert_Button_role.swift in Sources */,
+				6B5363EE2CA16ECA00245C9F /* DatePicker_LocalizedStringKey_selection_displayedComponents_range.swift in Sources */,
 				6B62BDCF2C9D7F7E00BEC28B /* Stepper_LocalizedStringKey_value_in_step_formatted.swift in Sources */,
 				6B312B1E2C7375D70041A9D8 /* NavigationStack_Form_Text_Section.swift in Sources */,
 				6B5743C52C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift in Sources */,

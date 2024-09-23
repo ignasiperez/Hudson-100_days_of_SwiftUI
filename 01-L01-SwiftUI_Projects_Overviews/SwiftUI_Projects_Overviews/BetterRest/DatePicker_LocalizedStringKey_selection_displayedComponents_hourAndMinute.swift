@@ -1,7 +1,6 @@
 //
 // §DatePicker(LocalizedStringKey:selection:˚displayedComponents)
 //
-//
 
 import SwiftUI
 
