@@ -1,5 +1,7 @@
 //
-
+// §DateComponents
+//      §hour
+//      §minute
 //
 
 import SwiftUI
@@ -11,6 +13,8 @@ struct Calendar_DateComponents: View {
     
     func ExampleDates() {
         var components = DateComponents()
+        components.hour = 8
+        components.minute = 0
         
     }
 }
