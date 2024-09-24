@@ -1,5 +1,5 @@
 //
-// §print(§type(of:))
+// §print(§type(˚of:))
 //
 
 import SwiftUI

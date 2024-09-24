@@ -1,5 +1,5 @@
 //
-// §Text.§background.§ultraThinMaterial
+// §Text§.background.±ultraThinMaterial
 //
 
 import SwiftUI

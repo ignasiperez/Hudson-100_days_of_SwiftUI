@@ -1,5 +1,5 @@
 //
-// Use two CapsuleText #costum views that encapsulate many styling modifiers
+// Use two CapsuleText ∑costum views that encapsulate many ∑styling modifiers
 //      Give custom .foregroundStyle colors when using CapsuleText
 //
 

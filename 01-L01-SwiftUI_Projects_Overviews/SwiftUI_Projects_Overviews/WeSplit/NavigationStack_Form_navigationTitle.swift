@@ -1,6 +1,6 @@
 //
 // §NavigationStack
-// §Form.§navigationTitle(&LocalizedStringKey:)
+//      §Form§.navigationTitle(˚LocalizedStringKey:)
 //
 
 

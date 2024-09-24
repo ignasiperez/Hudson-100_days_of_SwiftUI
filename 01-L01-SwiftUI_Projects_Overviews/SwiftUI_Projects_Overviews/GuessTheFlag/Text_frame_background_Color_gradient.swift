@@ -1,6 +1,6 @@
 //
-// §Text.§background(.orange.gradient)
-// 
+// §Text§.background(.±orange.±gradient)
+//
 
 import SwiftUI
 

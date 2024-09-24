@@ -1,5 +1,5 @@
 //
-// §opaque return types
+// ∑Opaque return types
 //
 
 import SwiftUI

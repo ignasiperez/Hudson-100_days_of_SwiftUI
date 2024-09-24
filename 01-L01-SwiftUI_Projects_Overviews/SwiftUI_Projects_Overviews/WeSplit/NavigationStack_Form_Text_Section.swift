@@ -1,8 +1,6 @@
 //
-// §NavigationStack(&root:)
-//      §Form
-//          §Section
-//              Text
+// §NavigationStack(˚root:)
+//
 
 import SwiftUI
 

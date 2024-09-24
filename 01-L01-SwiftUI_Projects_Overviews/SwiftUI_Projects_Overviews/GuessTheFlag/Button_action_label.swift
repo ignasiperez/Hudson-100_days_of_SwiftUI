@@ -1,6 +1,7 @@
 //
-// $Button(action:&label:)
-//      §Text(&LocalizedStringKey:tableName:bundle:comment)
+// $Button(action:˚label:)
+//      §Text(˚LocalizedStringKey:tableName:bundle:comment)
+//
 
 import SwiftUI
 

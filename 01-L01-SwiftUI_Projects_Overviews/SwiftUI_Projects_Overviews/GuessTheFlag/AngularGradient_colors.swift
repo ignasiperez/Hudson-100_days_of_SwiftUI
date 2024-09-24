@@ -1,5 +1,5 @@
 //
-// §AngularGradient(&colors:&center:angle)
+// §AngularGradient(˚colors:˚center:angle)
 //
 
 import SwiftUI

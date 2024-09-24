@@ -1,6 +1,6 @@
 //
 // §Form
-// §ForEach(Range<Int>, content: (Int) -> content) (with a range)
+//      §ForEach(Range<Int>, content: (Int) -> content)
 //
 
 import SwiftUI

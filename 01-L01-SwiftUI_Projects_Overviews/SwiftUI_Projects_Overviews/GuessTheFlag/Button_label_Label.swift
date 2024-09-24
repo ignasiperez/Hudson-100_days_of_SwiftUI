@@ -1,6 +1,6 @@
 //
-// §Button(action:&label)
-//      §Label(LocalizedStringKey:&systemImage)
+// §Button(action:˚label)
+//      §Label(LocalizedStringKey:˚systemImage)
 //
 
 import SwiftUI

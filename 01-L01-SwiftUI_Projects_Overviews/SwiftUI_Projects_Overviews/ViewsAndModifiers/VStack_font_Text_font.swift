@@ -1,6 +1,6 @@
 //
-// Apply a .font environment modifier to a VStack container
-//      Add a .font regular modifier  to a Text view
+// Apply a ∑.font environment modifier to a VStack container
+//      Add a ∑.font regular modifier to a Text view
 //
 
 

@@ -1,5 +1,5 @@
 //
-// §VStack(alignment:§spacing:content:)
+// §VStack(alignment:˚spacing:content:)
 //
 
 import SwiftUI

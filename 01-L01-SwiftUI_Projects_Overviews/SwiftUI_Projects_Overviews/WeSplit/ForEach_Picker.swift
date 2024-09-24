@@ -1,6 +1,8 @@
 //
-// §@State $selectedStudent (two-way binding)
-// §Picker(LocalizedStringKey, selection: Binding<SelectionValue>, content)
+// §@State selectedStudent (two-way binding)
+//
+// §Picker(˚LocalizedStringKey, ˚selection: Binding<SelectionValue>, ˚content)
+//
 
 import SwiftUI
 

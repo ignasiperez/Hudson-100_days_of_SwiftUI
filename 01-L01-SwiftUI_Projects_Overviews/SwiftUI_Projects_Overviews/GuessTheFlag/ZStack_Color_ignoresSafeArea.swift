@@ -1,10 +1,5 @@
 //
-//  ZStack_Color_ignoresSafeArea.swift
-//  SwiftUI_Projects_Overviews
-//
-//  Created by Ignasi Perez-Valls on 21/8/24.
-//
-// §ZStack.§ignoresSafeArea(SafeAreaRegions:edges)
+// §ZStack§.ignoresSafeArea(SafeAreaRegions:edges)
 //
 
 import SwiftUI

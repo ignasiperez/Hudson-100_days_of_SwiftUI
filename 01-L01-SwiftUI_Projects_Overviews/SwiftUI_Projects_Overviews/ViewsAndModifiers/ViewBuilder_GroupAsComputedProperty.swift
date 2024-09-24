@@ -1,5 +1,5 @@
 //
-// Add a @ViewBuilder attribute to a #computed property of §some View with two Text views inside
+// Add a @ViewBuilder attribute to a ∑computed property of §some View with two Text views inside
 //
 
 import SwiftUI

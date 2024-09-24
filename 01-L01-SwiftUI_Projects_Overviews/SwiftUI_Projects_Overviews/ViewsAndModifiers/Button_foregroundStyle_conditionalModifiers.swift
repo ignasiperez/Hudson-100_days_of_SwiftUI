@@ -1,3 +1,8 @@
+//
+// §Bool.§toggle()
+//
+// ∑Conditional modifiers
+//
 
 import SwiftUI
 

@@ -1,6 +1,7 @@
 //
-// §Form(&content:)
-//      §Text(&LocalizedStringKey:tableName:bundle:comment)
+// §Form(˚content:)
+//      §Text(˚LocalizedStringKey:tableName:bundle:comment)
+//
 
 import SwiftUI
 

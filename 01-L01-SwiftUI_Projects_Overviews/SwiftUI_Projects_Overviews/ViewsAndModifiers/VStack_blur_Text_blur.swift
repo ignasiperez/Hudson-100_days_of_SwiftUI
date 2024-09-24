@@ -1,6 +1,6 @@
 //
-// Apply a .blur regular modifier to a VStack container
-//      Add a .blur regular modifier to a Text view
+// Apply a ∑.blur regular modifier to a VStack container
+//      Add a ∑.blur regular modifier to a Text view
 //
 
 import SwiftUI

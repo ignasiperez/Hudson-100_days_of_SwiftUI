@@ -1,6 +1,6 @@
 //
 // §ZStack
-//      §Color(_:&red:&green:&blue:opacity:)
+//      §Color(_:˚red:˚green:˚blue:opacity:)
 //
 
 import SwiftUI

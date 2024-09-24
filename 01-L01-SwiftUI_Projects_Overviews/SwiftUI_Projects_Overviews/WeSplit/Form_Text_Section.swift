@@ -1,7 +1,7 @@
 //
 // §Form
-//      §Section(&content:)
-//          Text
+//      §Section(˚content:)
+//
 
 import SwiftUI
 

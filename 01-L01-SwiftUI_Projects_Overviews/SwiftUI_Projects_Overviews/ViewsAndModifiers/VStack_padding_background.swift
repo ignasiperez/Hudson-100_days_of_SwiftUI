@@ -1,3 +1,9 @@
+//
+// §Image(˚systemname)
+// §Image§.imageScale(.±large)
+// §Image§.foregroundStyle(.±tint)
+//
+
 
 import SwiftUI
 

@@ -2,7 +2,7 @@
 //  LinearGradient_colors.swift
 //  SwiftUI_Projects_Overviews
 //
-// §LinearGradient(&colors:&startPoint:&endPoint:)
+// §LinearGradient(˚colors:˚startPoint:˚endPoint:)
 //
 
 import SwiftUI

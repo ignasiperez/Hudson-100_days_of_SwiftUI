@@ -1,7 +1,6 @@
 //
 // §ZStack
-//      §Color
-//          §frame(&width:&height:alignment)
+//      §Color§.frame(˚width:˚height:alignment)
 //
 
 import SwiftUI

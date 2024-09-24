@@ -1,6 +1,5 @@
 //
-// §ZStack
-//      §background(&ShapeStyle:ignoreSafeAreaEdges)
+// §ZStack§.background(˚ShapeStyle:ignoreSafeAreaEdges)
 //
 
 import SwiftUI

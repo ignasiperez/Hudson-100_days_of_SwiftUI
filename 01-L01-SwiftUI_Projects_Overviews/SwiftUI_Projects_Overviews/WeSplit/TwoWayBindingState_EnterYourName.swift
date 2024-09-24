@@ -1,8 +1,5 @@
 //
-// §@State $name (two-way binding)
-// §Form
-//      §TextField
-//      §Text
+// §@State name (two-way binding)
 //
 
 import SwiftUI

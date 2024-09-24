@@ -1,7 +1,6 @@
 //
-// §Date
-//      §addingTimeInterval(TimeInterval:)
-//      §now
+// §Date§addingTimeInterval(TimeInterval:)
+// §Date§now
 //
 
 import SwiftUI

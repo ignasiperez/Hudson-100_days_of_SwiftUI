@@ -1,7 +1,6 @@
 //
 // §ZStack
-//      §Color
-//          §frame(§minVidth:§maxWidth:§maxHeight:)
+//      §Color§.frame(˚minVidth:˚maxWidth:˚maxHeight:)
 //
 
 import SwiftUI

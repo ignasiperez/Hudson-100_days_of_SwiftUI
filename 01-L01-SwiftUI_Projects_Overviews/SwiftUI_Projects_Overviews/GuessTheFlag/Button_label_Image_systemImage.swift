@@ -1,6 +1,6 @@
 //
-// §Button(action:&label:)
-//      §Image(&systemName:)
+// §Button(action:˚label:)
+//      §Image(˚systemName:)
 //
 
 import SwiftUI

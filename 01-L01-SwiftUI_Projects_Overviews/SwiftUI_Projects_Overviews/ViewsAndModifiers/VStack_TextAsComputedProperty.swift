@@ -1,5 +1,5 @@
 //
-// Modify one Text view as #computed property inside a VStack
+// Modify one Text view as ∑computed property inside a VStack
 //
 
 import SwiftUI

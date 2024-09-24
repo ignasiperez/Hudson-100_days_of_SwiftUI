@@ -1,5 +1,5 @@
 //
-// §Stepper(&LocalizedStringKey:&value:&in:&step:onEditingChanged:)
+// §Double§formatted()
 //
 
 import SwiftUI

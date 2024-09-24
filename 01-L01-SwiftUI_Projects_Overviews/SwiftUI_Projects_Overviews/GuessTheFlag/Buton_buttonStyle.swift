@@ -1,10 +1,10 @@
 //
-// §Button.§buttonStyle(.&bordered)
-// §Button.§buttonStyle(.&borderedProminent)
+// §Button§.buttonStyle(.±bordered)
+// §Button§.buttonStyle(.±borderedProminent)
 //
-// §Button(LocalizedStringKey:&role:action:)
+// §Button(LocalizedStringKey:˚role:action:)
 //
-// §Button.§tint(&Color?)
+// §Button§.tint(˚Color?)
 //
 
 import SwiftUI

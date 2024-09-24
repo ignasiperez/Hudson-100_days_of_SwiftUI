@@ -1,5 +1,5 @@
 //
-// Create a #computed property of §some View with a §Group and two Text views inside
+// Create a ∑computed property of §some View with a §Group and two Text views inside
 //
 
 import SwiftUI

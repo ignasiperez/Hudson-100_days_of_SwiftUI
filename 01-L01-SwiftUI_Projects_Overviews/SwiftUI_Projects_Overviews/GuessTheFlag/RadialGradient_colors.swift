@@ -1,5 +1,5 @@
 //
-// §RadialGradient(&colors:&center:&startRadius:&endRadius:)
+// §RadialGradient(˚colors:˚center:˚startRadius:˚endRadius:)
 //
 
 import SwiftUI
