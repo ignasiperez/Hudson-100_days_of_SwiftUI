@@ -69,7 +69,7 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            Stepper_LocalizedStringKey_value_in_step()
 //            Stepper_LocalizedStringKey_value_in_step_formatted()
 //            DatePicker_LocalizedStringKey_selection_displayedComponents()
-//          DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute()
+//            DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute()
 //            DatePicker_LocalizedStringKey_selection_displayedComponents_range()
 //            DatePicker_LocalizedStringKey_selection_displayedComponents_in()
 //            Calendar_DateComponents()
