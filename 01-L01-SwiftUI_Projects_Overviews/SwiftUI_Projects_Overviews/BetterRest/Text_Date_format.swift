@@ -12,6 +12,11 @@ struct Text_Date_format: View {
             Date.now,
             format: .dateTime.hour().minute()
         )
+        
+        Text(
+            Date.now,
+            format: .dateTime.day().month().year()
+        )
     }
 }
 
