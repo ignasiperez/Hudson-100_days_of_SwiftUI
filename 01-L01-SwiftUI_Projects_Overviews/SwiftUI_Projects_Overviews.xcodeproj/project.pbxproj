@@ -50,6 +50,7 @@
 		6B58FF5B2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */; };
 		6B60B5602C76441E0036A99B /* LinearGradient_colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */; };
 		6B62BDCF2C9D7F7E00BEC28B /* Stepper_LocalizedStringKey_value_in_step_formatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B62BDCE2C9D7F7E00BEC28B /* Stepper_LocalizedStringKey_value_in_step_formatted.swift */; };
+		6B639A802CA570B300D5F518 /* List_content_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B639A7F2CA570B300D5F518 /* List_content_Text.swift */; };
 		6B6EEEC82C8EF9860037AA62 /* CustomContainer_GridStack_ViewBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6EEEC72C8EF9860037AA62 /* CustomContainer_GridStack_ViewBuilder.swift */; };
 		6B7159552C998D27003ED604 /* Stepper_LocalizedStringKey_value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7159542C998D27003ED604 /* Stepper_LocalizedStringKey_value.swift */; };
 		6B71CB522C8870D6008AE70C /* VStack_padding_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71CB512C8870D6008AE70C /* VStack_padding_background.swift */; };
@@ -131,6 +132,7 @@
 		6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_label_Image_systemImage.swift; sourceTree = "<group>"; };
 		6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_colors.swift; sourceTree = "<group>"; };
 		6B62BDCE2C9D7F7E00BEC28B /* Stepper_LocalizedStringKey_value_in_step_formatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LocalizedStringKey_value_in_step_formatted.swift; sourceTree = "<group>"; };
+		6B639A7F2CA570B300D5F518 /* List_content_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_content_Text.swift; sourceTree = "<group>"; };
 		6B6EEEC72C8EF9860037AA62 /* CustomContainer_GridStack_ViewBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomContainer_GridStack_ViewBuilder.swift; sourceTree = "<group>"; };
 		6B7159542C998D27003ED604 /* Stepper_LocalizedStringKey_value.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LocalizedStringKey_value.swift; sourceTree = "<group>"; };
 		6B71CB512C8870D6008AE70C /* VStack_padding_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_padding_background.swift; sourceTree = "<group>"; };
@@ -235,6 +237,14 @@
 			path = WeSplit;
 			sourceTree = "<group>";
 		};
+		6B639A7E2CA5632B00D5F518 /* WordScrumble */ = {
+			isa = PBXGroup;
+			children = (
+				6B639A7F2CA570B300D5F518 /* List_content_Text.swift */,
+			);
+			path = WordScrumble;
+			sourceTree = "<group>";
+		};
 		6B71CB502C885BB0008AE70C /* ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
@@ -307,6 +317,7 @@
 				6B27A6742C74F1E000F1CE3F /* GuessTheFlag */,
 				6B71CB502C885BB0008AE70C /* ViewsAndModifiers */,
 				6B8E25F52C988F650088B57F /* BetterRest */,
+				6B639A7E2CA5632B00D5F518 /* WordScrumble */,
 				6BB165772C736EEE00D9DBCB /* Assets.xcassets */,
 				6BB165792C736EEE00D9DBCB /* Preview Content */,
 			);
@@ -430,6 +441,7 @@
 				6B312B1C2C7373D60041A9D8 /* Form_Text_Section.swift in Sources */,
 				6B27A67A2C74F45000F1CE3F /* VStack_spacing.swift in Sources */,
 				6B089D2D2C8B0D220000C814 /* VStack_TextAsComputedProperty.swift in Sources */,
+				6B639A802CA570B300D5F518 /* List_content_Text.swift in Sources */,
 				6B089D332C8B12700000C814 /* ViewBuilder_GroupAsComputedProperty.swift in Sources */,
 				6BAF19292CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift in Sources */,
 				6B089D2B2C8B0B110000C814 /* VStack_TextAsProperty.swift in Sources */,
