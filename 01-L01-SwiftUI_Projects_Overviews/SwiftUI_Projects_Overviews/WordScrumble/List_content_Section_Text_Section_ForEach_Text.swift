@@ -24,6 +24,7 @@ struct List_content_Section_Text_Section_ForEach_Text: View {
                 Text("Static row 4")
             }
         } // List
+        .listStyle(.grouped)
     }
 } // List_content_Section_Text_Section_ForEach_Text
 
