@@ -47,6 +47,7 @@
 		6B5743C32C88C686005BA66D /* Text_padding_background_padding_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */; };
 		6B5743C52C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5743C42C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift */; };
 		6B57B21B2CA6AA9D005106B1 /* List_Data_id.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57B21A2CA6AA9D005106B1 /* List_Data_id.swift */; };
+		6B57B21D2CA6AE00005106B1 /* List_content_ForEach_Data_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B57B21C2CA6AE00005106B1 /* List_content_ForEach_Data_Text.swift */; };
 		6B582E782CA47CC300C46773 /* Text_Date_formatted.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B582E772CA47CC300C46773 /* Text_Date_formatted.swift */; };
 		6B58FF5B2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */; };
 		6B60B5602C76441E0036A99B /* LinearGradient_colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */; };
@@ -133,6 +134,7 @@
 		6B5743C22C88C686005BA66D /* Text_padding_background_padding_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_padding_background_padding_background.swift; sourceTree = "<group>"; };
 		6B5743C42C88CAC3005BA66D /* OpaqueReturnTypes_body_Text_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpaqueReturnTypes_body_Text_Text.swift; sourceTree = "<group>"; };
 		6B57B21A2CA6AA9D005106B1 /* List_Data_id.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_Data_id.swift; sourceTree = "<group>"; };
+		6B57B21C2CA6AE00005106B1 /* List_content_ForEach_Data_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_content_ForEach_Data_Text.swift; sourceTree = "<group>"; };
 		6B582E772CA47CC300C46773 /* Text_Date_formatted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text_Date_formatted.swift; sourceTree = "<group>"; };
 		6B58FF5A2C7A3DC800B1ACD0 /* Button_label_Image_systemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_label_Image_systemImage.swift; sourceTree = "<group>"; };
 		6B60B55F2C76441E0036A99B /* LinearGradient_colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_colors.swift; sourceTree = "<group>"; };
@@ -253,6 +255,7 @@
 				6B639A832CA574E600D5F518 /* List_content_Section_Text_Section_ForEach_Text.swift */,
 				6B7B7F7C2CA5B5BF00410540 /* List_range_Text.swift */,
 				6B57B21A2CA6AA9D005106B1 /* List_Data_id.swift */,
+				6B57B21C2CA6AE00005106B1 /* List_content_ForEach_Data_Text.swift */,
 			);
 			path = WordScrumble;
 			sourceTree = "<group>";
@@ -473,6 +476,7 @@
 				6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */,
 				6BC561952C74FA4100C27484 /* VStack_Spacers.swift in Sources */,
 				6B4B02C82C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift in Sources */,
+				6B57B21D2CA6AE00005106B1 /* List_content_ForEach_Data_Text.swift in Sources */,
 				6B0B15C02CA2B78F00F4829F /* Calendar_DateComponents.swift in Sources */,
 				6B5091AC2C75EF1E006AFE4E /* ZStack_Color_semanticColors2.swift in Sources */,
 				6B089D352C8B15710000C814 /* VStack_Text_clipShape.swift in Sources */,
