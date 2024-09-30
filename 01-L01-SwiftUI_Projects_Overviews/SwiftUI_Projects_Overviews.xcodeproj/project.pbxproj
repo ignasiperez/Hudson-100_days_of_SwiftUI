@@ -22,6 +22,7 @@
 		6B27A67A2C74F45000F1CE3F /* VStack_spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B27A6792C74F45000F1CE3F /* VStack_spacing.swift */; };
 		6B27A67C2C74F71900F1CE3F /* VStack_alignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B27A67B2C74F71900F1CE3F /* VStack_alignment.swift */; };
 		6B27A67E2C74F7A100F1CE3F /* VStack_Spacer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B27A67D2C74F7A100F1CE3F /* VStack_Spacer.swift */; };
+		6B2E7A612CAAC8B800353F35 /* String_components_separatedBy_lineBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B2E7A602CAAC8B800353F35 /* String_components_separatedBy_lineBreak.swift */; };
 		6B312B1C2C7373D60041A9D8 /* Form_Text_Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B312B1B2C7373D60041A9D8 /* Form_Text_Section.swift */; };
 		6B312B1E2C7375D70041A9D8 /* NavigationStack_Form_Text_Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B312B1D2C7375D70041A9D8 /* NavigationStack_Form_Text_Section.swift */; };
 		6B312B202C73791A0041A9D8 /* NavigationStack_Form_navigationTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B312B1F2C73791A0041A9D8 /* NavigationStack_Form_navigationTitle.swift */; };
@@ -111,6 +112,7 @@
 		6B27A6792C74F45000F1CE3F /* VStack_spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_spacing.swift; sourceTree = "<group>"; };
 		6B27A67B2C74F71900F1CE3F /* VStack_alignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_alignment.swift; sourceTree = "<group>"; };
 		6B27A67D2C74F7A100F1CE3F /* VStack_Spacer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_Spacer.swift; sourceTree = "<group>"; };
+		6B2E7A602CAAC8B800353F35 /* String_components_separatedBy_lineBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_components_separatedBy_lineBreak.swift; sourceTree = "<group>"; };
 		6B312B1B2C7373D60041A9D8 /* Form_Text_Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_Text_Section.swift; sourceTree = "<group>"; };
 		6B312B1D2C7375D70041A9D8 /* NavigationStack_Form_Text_Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStack_Form_Text_Section.swift; sourceTree = "<group>"; };
 		6B312B1F2C73791A0041A9D8 /* NavigationStack_Form_navigationTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStack_Form_navigationTitle.swift; sourceTree = "<group>"; };
@@ -262,6 +264,7 @@
 				6B57B21C2CA6AE00005106B1 /* List_content_ForEach_Data_Text.swift */,
 				6BA2137D2CA6CA3000341F73 /* Bundle_main_url.swift */,
 				6BA2137F2CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift */,
+				6B2E7A602CAAC8B800353F35 /* String_components_separatedBy_lineBreak.swift */,
 			);
 			path = WordScrumble;
 			sourceTree = "<group>";
@@ -487,6 +490,7 @@
 				6B0B15C02CA2B78F00F4829F /* Calendar_DateComponents.swift in Sources */,
 				6BA213802CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift in Sources */,
 				6B5091AC2C75EF1E006AFE4E /* ZStack_Color_semanticColors2.swift in Sources */,
+				6B2E7A612CAAC8B800353F35 /* String_components_separatedBy_lineBreak.swift in Sources */,
 				6B089D352C8B15710000C814 /* VStack_Text_clipShape.swift in Sources */,
 				6B504F6A2C7DD97300B8AE4D /* Button_alert_Button_role.swift in Sources */,
 				6B5363EE2CA16ECA00245C9F /* DatePicker_LocalizedStringKey_selection_displayedComponents_range.swift in Sources */,
