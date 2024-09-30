@@ -25,9 +25,8 @@ struct String_components_separatedBy_lineBreak: View {
         print(" - letters: \(letters)")
         // - letters: ["a", "b", "c"]
         
-        if let letter = letters.randomElement() {
-            print(" - letter: \(letter)")
-        }
+        let letter = letters.randomElement()!
+        print(" - letter: \(letter)")
     }
 }
 
