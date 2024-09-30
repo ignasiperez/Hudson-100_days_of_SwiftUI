@@ -1,6 +1,8 @@
 //
 // §String§components(˚separatedBy:)
 //
+// §Array§randomElements()
+//
 
 import SwiftUI
 
@@ -22,6 +24,10 @@ struct String_components_separatedBy_lineBreak: View {
         let letters = input.components(separatedBy: "\n")
         print(" - letters: \(letters)")
         // - letters: ["a", "b", "c"]
+        
+        if let letter = letters.randomElement() {
+            print(" - letter: \(letter)")
+        }
     }
 }
 
