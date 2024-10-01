@@ -1,7 +1,9 @@
 //
-// §String§components(˚separatedBy:)
+// §string§components(˚separatedBy:)
 //
-// §Array§randomElements()
+// §array§randomElements()
+//
+// §string§trimmingCharacters(˚in ±whitespacesAndNewlines:)
 //
 
 import SwiftUI
@@ -27,6 +29,9 @@ struct String_components_separatedBy_lineBreak: View {
         
         let letter = letters.randomElement()!
         print(" - letter: \(letter)")
+        
+        let trimmed = letter.trimmingCharacters(in: .whitespacesAndNewlines)
+        print(" - trimmed: \(trimmed)")
     }
 }
 
