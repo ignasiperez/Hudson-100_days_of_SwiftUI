@@ -63,6 +63,7 @@
 		6B71CB562C887894008AE70C /* Button_background_frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71CB552C887894008AE70C /* Button_background_frame.swift */; };
 		6B7B7F7D2CA5B5BF00410540 /* List_range_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B7F7C2CA5B5BF00410540 /* List_range_Text.swift */; };
 		6B88DD1E2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88DD1D2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift */; };
+		6B8DBD8E2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DBD8D2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift */; };
 		6BA2137E2CA6CA3000341F73 /* Bundle_main_url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2137D2CA6CA3000341F73 /* Bundle_main_url.swift */; };
 		6BA213802CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2137F2CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift */; };
 		6BA5FCBE2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5FCBD2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift */; };
@@ -153,6 +154,7 @@
 		6B71CB552C887894008AE70C /* Button_background_frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_background_frame.swift; sourceTree = "<group>"; };
 		6B7B7F7C2CA5B5BF00410540 /* List_range_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_range_Text.swift; sourceTree = "<group>"; };
 		6B88DD1D2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar_dateComponents_hour_minute.swift; sourceTree = "<group>"; };
+		6B8DBD8D2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextChecker_NSRange_rangeOfMisspelledWord.swift; sourceTree = "<group>"; };
 		6BA2137D2CA6CA3000341F73 /* Bundle_main_url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle_main_url.swift; sourceTree = "<group>"; };
 		6BA2137F2CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_components_separatedBy_singleSpace.swift; sourceTree = "<group>"; };
 		6BA5FCBD2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LocalizedStringKey_value_in.swift; sourceTree = "<group>"; };
@@ -265,6 +267,7 @@
 				6BA2137D2CA6CA3000341F73 /* Bundle_main_url.swift */,
 				6BA2137F2CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift */,
 				6B2E7A602CAAC8B800353F35 /* String_components_separatedBy_lineBreak.swift */,
+				6B8DBD8D2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift */,
 			);
 			path = WordScrumble;
 			sourceTree = "<group>";
@@ -484,6 +487,7 @@
 				6BFBE8802C773AA700617D39 /* LinearGradient_stops2.swift in Sources */,
 				6B089D372C8B1AC70000C814 /* VStack_CapsuleText.swift in Sources */,
 				6B5091B22C75F728006AFE4E /* ZStack_Color_ultraThinMaterial.swift in Sources */,
+				6B8DBD8E2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift in Sources */,
 				6BC561952C74FA4100C27484 /* VStack_Spacers.swift in Sources */,
 				6B4B02C82C89A6D9008509A4 /* Button_foregroundStyle_conditionalModifiers.swift in Sources */,
 				6B57B21D2CA6AE00005106B1 /* List_content_ForEach_Data_Text.swift in Sources */,
