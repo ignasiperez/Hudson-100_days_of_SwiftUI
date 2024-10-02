@@ -15,6 +15,7 @@ struct UITextChecker_NSRange_rangeOfMisspelledWord: View {
         let word = "swift"
         let checker = UITextChecker()
         
+        let range = NSRange(location: 0, length: word.utf16.count)
         
     }
 }
