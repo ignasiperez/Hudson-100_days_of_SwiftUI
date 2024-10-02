@@ -1,8 +1,10 @@
 //
 // §UITextChecker
 //
-//
+// §NSRange(˚location:˚length:)
 // §uiTextChecker§rangeOfMisspelledWord(˚in:˚range:˚startingAt:˚wrap:˚language:)
+//
+// §nsRange§location
 //
 
 import SwiftUI
@@ -15,6 +17,8 @@ struct UITextChecker_NSRange_rangeOfMisspelledWord: View {
     }
     
     func testStrings() {
+        print(#function)
+        
         let word = "swift"
         let checker = UITextChecker()
         
@@ -26,6 +30,9 @@ struct UITextChecker_NSRange_rangeOfMisspelledWord: View {
             wrap: false,
             language: "en"
         )
+        
+        let allGood = misspelledRange.location == NSNotFound
+        print(" - word: \(word) allGood: \(allGood)")
     }
 }
 
