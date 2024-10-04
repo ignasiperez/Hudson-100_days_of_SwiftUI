@@ -7,15 +7,14 @@ struct ContentView: View {
     @State private var newWord: String = ""
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        NavigationStack {
+            List {
+                
+            }
+            .navigationTitle(rootWord)
+        } // NavigationStack
     }
-}
+} // ContentView
 
 #Preview {
     ContentView()
