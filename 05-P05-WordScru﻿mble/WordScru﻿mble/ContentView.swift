@@ -26,6 +26,9 @@ struct ContentView: View {
     
     func addNewWord() {
         print(#function)
+        
+        // Lowercase and trim the word, to make sure we don't add duplicate words with case differences
+        let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
     }
 } // ContentView
 
