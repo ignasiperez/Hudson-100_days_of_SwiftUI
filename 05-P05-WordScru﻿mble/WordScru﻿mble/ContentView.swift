@@ -9,7 +9,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             List {
-                
+                Section {
+                    TextField("Enter your word", text: $newWord)
+                }
             }
             .navigationTitle(rootWord)
         } // NavigationStack
