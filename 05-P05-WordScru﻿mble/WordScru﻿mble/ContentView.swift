@@ -12,6 +12,12 @@ struct ContentView: View {
                 Section {
                     TextField("Enter your word", text: $newWord)
                 }
+                
+                Section {
+                    ForEach(usedWords, id: \.self) { word in
+                        Text(word)
+                    }
+                }
             }
             .navigationTitle(rootWord)
         } // NavigationStack
