@@ -22,6 +22,10 @@ struct ContentView: View {
             .navigationTitle(rootWord)
         } // NavigationStack
     }
+    
+    func addNewWord() {
+        print(#function)
+    }
 } // ContentView
 
 #Preview {
