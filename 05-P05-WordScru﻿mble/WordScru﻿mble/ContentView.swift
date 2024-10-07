@@ -37,6 +37,7 @@ struct ContentView: View {
         
         
         usedWords.insert(answer, at: 0)
+        newWord = ""
     }
 } // ContentView
 
