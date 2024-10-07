@@ -49,14 +49,19 @@ struct ContentView: View {
     }
     
     func startGame() {
+        print(#function)
+        
         // 1. Find the URL for start.txt in our app bundle
         if let startWordsURL = Bundle.main.url(forResource: "start",
                                                withExtension: "txt") {
             // 2. Load start.txt into a string
             if let startWordsString = try? String(contentsOf: startWordsURL,
-                                                  encoding: .utf16) {
+                                                  encoding: .utf8) {
                 // 3. Split the string up into an array of strings, splitting on line breaks
                 let allWords = startWordsString.components(separatedBy: "\n")
+                
+                // 4. Pick one random word, or use "silkworm" as a sensible default
+                rootWord = allWords.randomElement() ?? "silkworm"
             }
         }
     }
