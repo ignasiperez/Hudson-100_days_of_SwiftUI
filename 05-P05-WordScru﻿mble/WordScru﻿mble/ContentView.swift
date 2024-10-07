@@ -55,7 +55,8 @@ struct ContentView: View {
             // 2. Load start.txt into a string
             if let startWordsString = try? String(contentsOf: startWordsURL,
                                                   encoding: .utf16) {
-                
+                // 3. Split the string up into an array of strings, splitting on line breaks
+                let allWords = startWordsString.components(separatedBy: "\n")
             }
         }
     }
