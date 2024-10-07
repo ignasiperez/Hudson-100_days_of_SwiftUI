@@ -29,6 +29,9 @@ struct ContentView: View {
         
         // Lowercase and trim the word, to make sure we don't add duplicate words with case differences
         let answer = newWord.lowercased().trimmingCharacters(in: .whitespacesAndNewlines)
+        
+        // Exit if the remaining string is empty
+        guard answer.count > 0 else { return }
     }
 } // ContentView
 
