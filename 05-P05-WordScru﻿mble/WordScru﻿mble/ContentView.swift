@@ -49,7 +49,8 @@ struct ContentView: View {
     }
     
     func startGame() {
-        
+        // 1. Find the URL for start.txt in our app bundle
+        let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt")
     }
     
 } // ContentView
