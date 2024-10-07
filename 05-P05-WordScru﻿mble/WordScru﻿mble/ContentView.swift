@@ -50,7 +50,14 @@ struct ContentView: View {
     
     func startGame() {
         // 1. Find the URL for start.txt in our app bundle
-        let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt")
+        if let startWordsURL = Bundle.main.url(forResource: "start",
+                                               withExtension: "txt") {
+            // 2. Load start.txt into a string
+            if let startWordsString = try? String(contentsOf: startWordsURL,
+                                                  encoding: .utf16) {
+                
+            }
+        }
     }
     
 } // ContentView
