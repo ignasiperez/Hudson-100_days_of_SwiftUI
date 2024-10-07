@@ -46,6 +46,11 @@ struct ContentView: View {
         
         newWord = ""
     }
+    
+    func startGame() {
+        
+    }
+    
 } // ContentView
 
 #Preview {
