@@ -32,6 +32,11 @@ struct ContentView: View {
         
         // Exit if the remaining string is empty
         guard answer.count > 0 else { return }
+        
+        // extra validation to come
+        
+        
+        usedWords.insert(answer, at: 0)
     }
 } // ContentView
 
