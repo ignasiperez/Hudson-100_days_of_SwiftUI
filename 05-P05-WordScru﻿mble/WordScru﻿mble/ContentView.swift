@@ -60,6 +60,12 @@ struct ContentView: View {
             return
         }
         
+        guard isPossible(word: answer) else {
+            wordError(title: "Word not possible",
+                      message: "You can't spell that word from '\(rootWord)'!")
+            return
+        }
+        
         
         withAnimation {
             usedWords.insert(answer, at: 0)
@@ -99,11 +105,15 @@ struct ContentView: View {
     }
     
     func isOriginal(word: String) -> Bool {
-        !usedWords.contains(word)
+        print(#function)
+        
+        return !usedWords.contains(word)
     }
     
     func isPossible(word: String) -> Bool {
-        var tempWord = word
+        print(#function)
+        
+        var tempWord = rootWord
         
         for letter in word {
             if let position = tempWord.firstIndex(of: letter) {
