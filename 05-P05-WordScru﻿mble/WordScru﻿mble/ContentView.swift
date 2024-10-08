@@ -77,6 +77,12 @@ struct ContentView: View {
         fatalError("Could not load start.txt from bundle.")
     }
     
+    func wordError(title: String, message: String) {
+        errorTitle = title
+        errorMessage = message
+        showingError = true
+    }
+    
 } // ContentView
 
 #Preview {
