@@ -38,7 +38,7 @@ struct ContentView: View {
                 } message: {
                     Text(errorMessage)
                 }
-
+            
         } // NavigationStack
     }
     
@@ -89,6 +89,10 @@ struct ContentView: View {
         errorTitle = title
         errorMessage = message
         showingError = true
+    }
+    
+    func isOriginal(word: String) -> Bool {
+        !usedWords.contains(word)
     }
     
 } // ContentView
