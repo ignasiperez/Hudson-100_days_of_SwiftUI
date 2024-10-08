@@ -1,5 +1,5 @@
 //
-// §Button§.alert(˚LocalizedStringKey:˚isPresented:˚action)
+// §Button§.alert(˚LocalizedStringKey:˚isPresented:˚actions)
 //
 
 import SwiftUI

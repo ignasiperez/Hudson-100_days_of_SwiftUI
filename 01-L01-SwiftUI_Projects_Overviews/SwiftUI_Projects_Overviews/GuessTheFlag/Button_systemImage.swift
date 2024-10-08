@@ -1,5 +1,5 @@
 //
-// §Button(LocalizedStringKey:˚systemImage:action)
+// §Button(LocalizedStringKey:˚systemImage:action:)
 //
 
 import SwiftUI
