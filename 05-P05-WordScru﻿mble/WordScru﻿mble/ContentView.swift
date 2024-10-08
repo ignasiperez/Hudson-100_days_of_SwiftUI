@@ -51,7 +51,14 @@ struct ContentView: View {
         // Exit if the remaining string is empty
         guard answer.count > 0 else { return }
         
-        // extra validation to come
+        
+        // Inserted word Validations
+        
+        guard isOriginal(word: answer) else {
+            wordError(title: "Word used already",
+                      message: "Be more original")
+            return
+        }
         
         
         withAnimation {
