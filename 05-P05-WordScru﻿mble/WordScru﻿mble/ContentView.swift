@@ -102,6 +102,20 @@ struct ContentView: View {
         !usedWords.contains(word)
     }
     
+    func isPossible(word: String) -> Bool {
+        var tempWord = word
+        
+        for letter in word {
+            if let position = tempWord.firstIndex(of: letter) {
+                tempWord.remove(at: position)
+            } else {
+                return false
+            }
+        }
+        
+        return true
+    }
+    
 } // ContentView
 
 #Preview {
