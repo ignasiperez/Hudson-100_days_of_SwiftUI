@@ -31,6 +31,14 @@ struct ContentView: View {
             .navigationTitle(rootWord)
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
+            .alert(
+                errorTitle,
+                isPresented: $showingError) {
+                    Button("Ok") {}
+                } message: {
+                    Text(errorMessage)
+                }
+
         } // NavigationStack
     }
     
