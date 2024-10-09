@@ -54,6 +54,12 @@ struct ContentView: View {
         
         // Inserted word Validations
         
+        guard isShorterThanThreeLetters(word: answer) else {
+            wordError(title: "Word shorter than 3 letters",
+                      message: "Word too short!")
+            return
+        }
+        
         guard isOriginal(word: answer) else {
             wordError(title: "Word used already",
                       message: "Be more original")
@@ -71,7 +77,6 @@ struct ContentView: View {
                       message: "You can't just make them up, you know!")
             return
         }
-
         
         withAnimation {
             usedWords.insert(answer, at: 0)
@@ -108,6 +113,12 @@ struct ContentView: View {
         errorTitle = title
         errorMessage = message
         showingError = true
+    }
+    
+    func isShorterThanThreeLetters(word: String) -> Bool {
+        print(#function)
+        
+        return !(word.count < 3)
     }
     
     func isOriginal(word: String) -> Bool {
@@ -147,13 +158,7 @@ struct ContentView: View {
 
         return misspelledRange.location == NSNotFound
     }
-    
-    func isShorterThanThreeLetters(word: String) -> Bool {
-        print(#function)
         
-        return word.count < 3
-    }
-    
 } // ContentView
 
 #Preview {
