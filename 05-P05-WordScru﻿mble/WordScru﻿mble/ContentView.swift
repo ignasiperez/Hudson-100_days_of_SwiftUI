@@ -121,6 +121,12 @@ struct ContentView: View {
         return !(word.count < 3)
     }
     
+    func isEqualToRoodWord(word: String) -> Bool {
+        print(#function)
+        
+        return word != rootWord
+    }
+    
     func isOriginal(word: String) -> Bool {
         print(#function)
         
