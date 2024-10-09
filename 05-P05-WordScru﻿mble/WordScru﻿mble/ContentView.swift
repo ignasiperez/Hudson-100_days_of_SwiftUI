@@ -29,6 +29,13 @@ struct ContentView: View {
                 }
             }
             .navigationTitle(rootWord)
+            .toolbar {
+                ToolbarItem {
+                    Button("New Game") {
+                        startGame()
+                    }
+                }
+            }
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
             .alert(
@@ -38,7 +45,6 @@ struct ContentView: View {
                 } message: {
                     Text(errorMessage)
                 }
-            
         } // NavigationStack
     }
     
@@ -167,10 +173,10 @@ struct ContentView: View {
             wrap: false,
             language: "en"
         )
-
+        
         return misspelledRange.location == NSNotFound
     }
-        
+    
 } // ContentView
 
 #Preview {
