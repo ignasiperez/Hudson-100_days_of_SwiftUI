@@ -60,6 +60,12 @@ struct ContentView: View {
             return
         }
         
+        guard isEqualToRoodWord(word: answer) else {
+            wordError(title: "Word is the same as the starting word",
+                      message: "Word can't be equal to the root word!")
+            return
+        }
+        
         guard isOriginal(word: answer) else {
             wordError(title: "Word used already",
                       message: "Be more original")
