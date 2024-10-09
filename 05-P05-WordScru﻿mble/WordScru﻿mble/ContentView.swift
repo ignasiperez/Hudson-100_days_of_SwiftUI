@@ -66,6 +66,12 @@ struct ContentView: View {
             return
         }
         
+        guard isReal(word: answer) else {
+            wordError(title: "Word not recognized",
+                      message: "You can't just make them up, you know!")
+            return
+        }
+
         
         withAnimation {
             usedWords.insert(answer, at: 0)
@@ -140,6 +146,12 @@ struct ContentView: View {
         )
 
         return misspelledRange.location == NSNotFound
+    }
+    
+    func isShorterThanThreeLetters(word: String) -> Bool {
+        print(#function)
+        
+        return word.count < 3
     }
     
 } // ContentView
