@@ -6,6 +6,8 @@ struct ContentView: View {
     @State private var rootWord: String = ""
     @State private var newWord: String = ""
     
+    @State private var score: Int = 0
+    
     // Alert related code
     @State private var errorTitle = ""
     @State private var errorMessage = ""
