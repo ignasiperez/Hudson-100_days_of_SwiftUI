@@ -98,7 +98,10 @@ struct ContentView: View {
     }
     
     func startGame() {
-        print(#function)
+        print("\n\(#function)")
+
+        usedWords.removeAll()
+        newWord = ""
         
         // 1. Find the URL for start.txt in our app bundle
         if let startWordsURL = Bundle.main.url(forResource: "start",
