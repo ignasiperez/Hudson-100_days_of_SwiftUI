@@ -38,6 +38,9 @@ struct ContentView: View {
             }
             .safeAreaInset(edge: .bottom) {
                 Text("Score: \(score)")
+                    .frame(maxWidth: .infinity)
+                    .padding()
+                    .background(.indigo)
             }
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
