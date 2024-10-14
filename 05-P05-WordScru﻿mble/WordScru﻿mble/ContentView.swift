@@ -32,11 +32,12 @@ struct ContentView: View {
             }
             .navigationTitle(rootWord)
             .toolbar {
-                ToolbarItem {
-                    Button("New Game") {
-                        startGame()
-                    }
+                Button("New Game") {
+                    startGame()
                 }
+            }
+            .safeAreaInset(edge: .bottom) {
+                Text("Score: \(score)")
             }
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
