@@ -74,7 +74,17 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            DatePicker_LocalizedStringKey_selection_displayedComponents_in()
 //            Calendar_DateComponents()
 //            Calendar_dateComponents_hour_minute()
-            String_components_separatedBy_lineBreak()
+            // WordScrumble
+//            List_content_Text()
+//            List_content_ForEach_Text()
+//            List_content_Section_Text_Section_ForEach_Text()
+//            List_range_Text()
+//            List_Data_id()
+//            List_content_ForEach_Data_Text()
+//            Bundle_main_url()
+//            String_components_separatedBy_singleSpace()
+//            String_components_separatedBy_lineBreak()
+              UITextChecker_NSRange_rangeOfMisspelledWord()
         }
     }
 }

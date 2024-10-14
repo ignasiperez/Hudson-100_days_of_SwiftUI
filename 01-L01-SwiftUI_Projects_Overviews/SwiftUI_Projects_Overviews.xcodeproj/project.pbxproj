@@ -320,6 +320,13 @@
 			path = BetterRest;
 			sourceTree = "<group>";
 		};
+		6BAF97B72CBD6C9200B00282 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		6BB165672C736EED00D9DBCB = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +352,7 @@
 				6B71CB502C885BB0008AE70C /* ViewsAndModifiers */,
 				6B8E25F52C988F650088B57F /* BetterRest */,
 				6B639A7E2CA5632B00D5F518 /* WordScrumble */,
+				6BAF97B72CBD6C9200B00282 /* Animation */,
 				6BB165772C736EEE00D9DBCB /* Assets.xcassets */,
 				6BB165792C736EEE00D9DBCB /* Preview Content */,
 			);
