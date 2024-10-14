@@ -41,6 +41,8 @@ struct ContentView: View {
                     .frame(maxWidth: .infinity)
                     .padding()
                     .background(.indigo)
+                    .foregroundStyle(.white)
+                    .font(.title)
             }
             .onSubmit(addNewWord)
             .onAppear(perform: startGame)
