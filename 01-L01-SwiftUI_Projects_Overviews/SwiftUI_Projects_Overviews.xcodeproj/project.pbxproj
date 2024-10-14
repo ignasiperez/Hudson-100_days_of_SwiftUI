@@ -70,6 +70,7 @@
 		6BA5FCC02C99DB7B00B19D37 /* Stepper_LocalizedStringKey_value_in_step.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5FCBF2C99DB7B00B19D37 /* Stepper_LocalizedStringKey_value_in_step.swift */; };
 		6BA9E40A2C7AE7C6000C6388 /* Button_systemImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA9E4092C7AE7C6000C6388 /* Button_systemImage.swift */; };
 		6BAF19292CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF19282CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift */; };
+		6BAF97B92CBD708C00B00282 /* Button_scaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BAF97B82CBD708C00B00282 /* Button_scaleEffect.swift */; };
 		6BB165742C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */; };
 		6BB165762C736EED00D9DBCB /* Form_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BB165752C736EED00D9DBCB /* Form_Text.swift */; };
 		6BB165782C736EEE00D9DBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BB165772C736EEE00D9DBCB /* Assets.xcassets */; };
@@ -161,6 +162,7 @@
 		6BA5FCBF2C99DB7B00B19D37 /* Stepper_LocalizedStringKey_value_in_step.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LocalizedStringKey_value_in_step.swift; sourceTree = "<group>"; };
 		6BA9E4092C7AE7C6000C6388 /* Button_systemImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_systemImage.swift; sourceTree = "<group>"; };
 		6BAF19282CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift; sourceTree = "<group>"; };
+		6BAF97B82CBD708C00B00282 /* Button_scaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_scaleEffect.swift; sourceTree = "<group>"; };
 		6BB165702C736EED00D9DBCB /* SwiftUI_Projects_Overviews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUI_Projects_Overviews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BB165732C736EED00D9DBCB /* SwiftUI_Projects_OverviewsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Projects_OverviewsApp.swift; sourceTree = "<group>"; };
 		6BB165752C736EED00D9DBCB /* Form_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Form_Text.swift; sourceTree = "<group>"; };
@@ -323,6 +325,7 @@
 		6BAF97B72CBD6C9200B00282 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				6BAF97B82CBD708C00B00282 /* Button_scaleEffect.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -464,6 +467,7 @@
 				6B71CB542C887532008AE70C /* VStack_frame_background.swift in Sources */,
 				6B089D312C8B10EC0000C814 /* GroupAsComputedProperty.swift in Sources */,
 				6BE4CD642C7B83EA00B47692 /* Button_label_Label.swift in Sources */,
+				6BAF97B92CBD708C00B00282 /* Button_scaleEffect.swift in Sources */,
 				6B312B2A2C73877E0041A9D8 /* ForEach_Picker.swift in Sources */,
 				6BF876DD2C7CE7FD006002F4 /* Button_alert.swift in Sources */,
 				6B312B262C7383F60041A9D8 /* ForEach_Range.swift in Sources */,
