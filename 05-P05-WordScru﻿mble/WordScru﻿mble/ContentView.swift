@@ -110,6 +110,7 @@ struct ContentView: View {
 
         usedWords.removeAll()
         newWord = ""
+        score = 0
         
         // 1. Find the URL for start.txt in our app bundle
         if let startWordsURL = Bundle.main.url(forResource: "start",
