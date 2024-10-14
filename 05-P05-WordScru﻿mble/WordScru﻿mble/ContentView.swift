@@ -102,6 +102,8 @@ struct ContentView: View {
             usedWords.insert(answer, at: 0)
         }
         
+        score += answer.count
+        
         newWord = ""
     }
     
