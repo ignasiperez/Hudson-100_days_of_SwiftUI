@@ -9,7 +9,7 @@ struct Button_scaleEffect: View {
     
     var body: some View {
         Button("Tap Me") {
-            // Do nothing
+            animationAmount += 1
         }
         .padding(50)
         .background(.red)

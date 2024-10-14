@@ -84,7 +84,11 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            Bundle_main_url()
 //            String_components_separatedBy_singleSpace()
 //            String_components_separatedBy_lineBreak()
-              UITextChecker_NSRange_rangeOfMisspelledWord()
+//            UITextChecker_NSRange_rangeOfMisspelledWord()
+            // Animation
+            Button_scaleEffect()
+            
+            
         }
     }
 }
