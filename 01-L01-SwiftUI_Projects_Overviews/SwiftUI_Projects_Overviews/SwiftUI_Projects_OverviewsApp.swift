@@ -86,9 +86,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            String_components_separatedBy_lineBreak()
 //            UITextChecker_NSRange_rangeOfMisspelledWord()
             // Animation
-            Button_scaleEffect()
-            
-            
+//            Button_scaleEffect()
+            Button_scaleEffect_blur()
         }
     }
 }
