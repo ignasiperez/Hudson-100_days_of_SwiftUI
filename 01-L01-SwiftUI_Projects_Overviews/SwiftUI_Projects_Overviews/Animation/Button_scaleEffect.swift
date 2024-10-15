@@ -1,6 +1,8 @@
 //
 // §Button§.scaleEffect(˚CGFloat:anchor:)
 //
+// §Button§.animation(Animation:˚value)
+//
 
 import SwiftUI
 
@@ -16,6 +18,7 @@ struct Button_scaleEffect: View {
         .foregroundStyle(.white)
         .clipShape(.circle)
         .scaleEffect(animationAmount)
+        .animation(.default, value: animationAmount)
     }
 }
 
