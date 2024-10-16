@@ -1,5 +1,5 @@
 //
-// 
+//
 //
 
 import SwiftUI
@@ -77,7 +77,11 @@ struct Button_animation: View {
             .clipShape(.circle)
             .scaleEffect(animationAmount5)
             .blur(radius: (animationAmount5 - 1) * 3)
-            .animation(.default, value: animationAmount5)
+            .animation(
+                .easeInOut(duration: 2)
+                    .delay(1),
+                value: animationAmount5
+            )
             
             Spacer()
         }
