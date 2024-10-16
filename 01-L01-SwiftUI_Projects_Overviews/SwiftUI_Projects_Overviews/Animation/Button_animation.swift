@@ -7,6 +7,7 @@ import SwiftUI
 struct Button_animation: View {
     @State private var animationAmount: CGFloat = 1.0
     @State private var animationAmount2: CGFloat = 1.0
+    @State private var animationAmount3: CGFloat = 1.0
     
     var body: some View {
         VStack {
@@ -35,6 +36,19 @@ struct Button_animation: View {
             .scaleEffect(animationAmount2)
             .blur(radius: (animationAmount2 - 1) * 3)
             .animation(.linear, value: animationAmount2)
+            
+            Spacer()
+            
+            Button("Tap ±spring") {
+                animationAmount3 += 1
+            }
+            .padding(50)
+            .background(.red)
+            .foregroundStyle(.white)
+            .clipShape(.circle)
+            .scaleEffect(animationAmount3)
+            .blur(radius: (animationAmount3 - 1) * 3)
+            .animation(.default, value: animationAmount3)
             
             Spacer()
         }
