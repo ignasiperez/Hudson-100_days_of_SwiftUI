@@ -105,7 +105,7 @@ struct Button_animation: View {
             Spacer()
             
             Button("Tap §repeatForever") {
-                animationAmount += 1
+                animationAmount7 += 1
             }
             .padding(50)
             .background(.red)
@@ -115,7 +115,7 @@ struct Button_animation: View {
             .blur(radius: (animationAmount7 - 1) * 3)
             .animation(
                 .easeInOut(duration: 1)
-                .repeatCount(3, autoreverses: true),
+                .repeatForever(autoreverses: true),
                 value: animationAmount7
             )
             
