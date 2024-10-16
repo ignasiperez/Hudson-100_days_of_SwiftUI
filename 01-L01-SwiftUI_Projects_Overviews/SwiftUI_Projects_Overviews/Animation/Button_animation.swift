@@ -63,7 +63,7 @@ struct Button_animation: View {
             .clipShape(.circle)
             .scaleEffect(animationAmount4)
             .blur(radius: (animationAmount4 - 1) * 3)
-            .animation(.default, value: animationAmount4)
+            .animation(.easeInOut(duration: 2), value: animationAmount4)
             
             Spacer()
         }
