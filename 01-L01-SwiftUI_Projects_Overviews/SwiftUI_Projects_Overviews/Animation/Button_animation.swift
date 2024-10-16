@@ -11,6 +11,7 @@ struct Button_animation: View {
     @State private var animationAmount4: CGFloat = 1.0
     @State private var animationAmount5: CGFloat = 1.0
     @State private var animationAmount6: CGFloat = 1.0
+    @State private var animationAmount7: CGFloat = 1.0
     
     var body: some View {
         VStack {
@@ -96,9 +97,26 @@ struct Button_animation: View {
             .scaleEffect(animationAmount6)
             .blur(radius: (animationAmount6 - 1) * 3)
             .animation(
-                .easeInOut(duration: 2)
+                .easeInOut(duration: 1)
                 .repeatCount(3, autoreverses: true),
                 value: animationAmount6
+            )
+            
+            Spacer()
+            
+            Button("Tap §repeatForever") {
+                animationAmount += 1
+            }
+            .padding(50)
+            .background(.red)
+            .foregroundStyle(.white)
+            .clipShape(.circle)
+            .scaleEffect(animationAmount7)
+            .blur(radius: (animationAmount7 - 1) * 3)
+            .animation(
+                .easeInOut(duration: 1)
+                .repeatCount(3, autoreverses: true),
+                value: animationAmount7
             )
             
             Spacer()
