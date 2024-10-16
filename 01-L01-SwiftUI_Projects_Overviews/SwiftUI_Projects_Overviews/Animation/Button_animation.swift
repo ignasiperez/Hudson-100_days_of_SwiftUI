@@ -97,7 +97,7 @@ struct Button_animation: View {
             .blur(radius: (animationAmount6 - 1) * 3)
             .animation(
                 .easeInOut(duration: 2)
-                .delay(1),
+                .repeatCount(3, autoreverses: true),
                 value: animationAmount6
             )
             
