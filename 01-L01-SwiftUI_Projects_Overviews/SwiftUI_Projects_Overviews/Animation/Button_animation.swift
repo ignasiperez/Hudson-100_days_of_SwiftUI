@@ -10,6 +10,7 @@ struct Button_animation: View {
     @State private var animationAmount3: CGFloat = 1.0
     @State private var animationAmount4: CGFloat = 1.0
     @State private var animationAmount5: CGFloat = 1.0
+    @State private var animationAmount6: CGFloat = 1.0
     
     var body: some View {
         VStack {
@@ -68,7 +69,7 @@ struct Button_animation: View {
             
             Spacer()
             
-            Button("Tap ±delay") {
+            Button("Tap §delay") {
                 animationAmount5 += 1
             }
             .padding(50)
@@ -79,8 +80,25 @@ struct Button_animation: View {
             .blur(radius: (animationAmount5 - 1) * 3)
             .animation(
                 .easeInOut(duration: 2)
-                    .delay(1),
+                .delay(1),
                 value: animationAmount5
+            )
+            
+            Spacer()
+            
+            Button("Tap §repeatCount") {
+                animationAmount6 += 1
+            }
+            .padding(50)
+            .background(.red)
+            .foregroundStyle(.white)
+            .clipShape(.circle)
+            .scaleEffect(animationAmount6)
+            .blur(radius: (animationAmount6 - 1) * 3)
+            .animation(
+                .easeInOut(duration: 2)
+                .delay(1),
+                value: animationAmount6
             )
             
             Spacer()
