@@ -2,6 +2,7 @@
 // §Button§.overlay(alignment:˚content)
 //
 //      §Circle§.stroke(˚ShapeStyle:˚style)
+//      §Circle§.scaleEffect(˚CGFloat:anchor:)
 //
 
 import SwiftUI
@@ -21,6 +22,7 @@ struct Button_onAppear_overlay_Circle_repeatForever: View {
             Circle()
                 .stroke(.indigo,
                         style: StrokeStyle(lineWidth: 2))
+                .scaleEffect(animationAmount)
         }
         .onAppear {
             animationAmount = 2
