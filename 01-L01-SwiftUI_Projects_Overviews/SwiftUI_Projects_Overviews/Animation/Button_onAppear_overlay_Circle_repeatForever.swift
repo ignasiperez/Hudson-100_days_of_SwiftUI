@@ -25,6 +25,11 @@ struct Button_onAppear_overlay_Circle_repeatForever: View {
                         style: StrokeStyle(lineWidth: 2))
                 .scaleEffect(animationAmount)
                 .opacity(2 - animationAmount)
+                .animation(
+                    .easeOut(duration: 1)
+                        .repeatForever(autoreverses: false),
+                    value: animationAmount
+                )
         }
         .onAppear {
             animationAmount = 2
