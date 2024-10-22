@@ -12,7 +12,7 @@ struct Stepper_animation_Button_scaleEffect: View {
             Spacer()
             
             Button("Tap Me") {
-                
+                animationAmount += 1
             }
             .padding(40)
             .background(.red)
