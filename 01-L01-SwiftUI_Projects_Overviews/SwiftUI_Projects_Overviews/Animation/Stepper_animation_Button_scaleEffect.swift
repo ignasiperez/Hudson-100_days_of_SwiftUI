@@ -9,6 +9,12 @@ struct Stepper_animation_Button_scaleEffect: View {
     
     var body: some View {
         VStack {
+            Stepper(
+                "Scale amount",
+                value: $animationAmount,
+                in: 1...10
+            )
+            
             Spacer()
             
             Button("Tap Me") {
