@@ -18,6 +18,7 @@ struct Stepper_animation_Button_scaleEffect: View {
             .background(.red)
             .foregroundStyle(.white)
             .clipShape(.circle)
+            .scaleEffect(animationAmount)
         }
     }
 }
