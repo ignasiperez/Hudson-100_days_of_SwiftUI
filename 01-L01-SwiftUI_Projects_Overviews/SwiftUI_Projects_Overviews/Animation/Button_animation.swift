@@ -1,5 +1,12 @@
 //
+// §button§.scaleEffect(˚CGFloat:anchor:)
 //
+// §button§.animation(˚Animation:˚value)
+// §button§.animation(±linear:˚value)
+// §button§.animation(±spring(˚duration:˚bounce:blendDuration:)
+// §button§.animation(±easeInOut(˚duration:)
+//      §repeatCount(˚Int:˚autoreverses)
+//      §repeatForever(˚autoreverses)
 //
 
 import SwiftUI
@@ -52,8 +59,10 @@ struct Button_animation: View {
             .clipShape(.circle)
             .scaleEffect(animationAmount3)
             .blur(radius: (animationAmount3 - 1) * 3)
-            .animation(.spring(duration: 1, bounce: 0.9),
-                       value: animationAmount3)
+            .animation(
+                .spring(duration: 1, bounce: 0.9),
+                value: animationAmount3
+            )
             
             Spacer()
             
@@ -80,8 +89,7 @@ struct Button_animation: View {
             .scaleEffect(animationAmount5)
             .blur(radius: (animationAmount5 - 1) * 3)
             .animation(
-                .easeInOut(duration: 2)
-                .delay(1),
+                .easeInOut(duration: 2).delay(1),
                 value: animationAmount5
             )
             

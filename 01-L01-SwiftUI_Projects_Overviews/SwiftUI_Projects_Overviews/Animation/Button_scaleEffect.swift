@@ -1,7 +1,7 @@
 //
-// §Button§.scaleEffect(˚CGFloat:anchor:)
+// §button§.scaleEffect(˚CGFloat:anchor:)
 //
-// §Button§.animation(Animation:˚value)
+// §button§.animation(˚Animation:˚value)
 //
 
 import SwiftUI

@@ -5,6 +5,9 @@
 //      §Circle§.scaleEffect(˚CGFloat:anchor:)
 //      §Circle§.opacity(˚Double:)
 //
+// §animation§easeOut(˚duration:)
+// §aniamtion§repeatForever(˚autoreverses)
+//
 
 import SwiftUI
 
