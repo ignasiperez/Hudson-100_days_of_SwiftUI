@@ -1,6 +1,9 @@
 //
 // §binding§animation(Animation)
 //
+// §animation§easeInOut(˚duration:)
+// §aniamtion§repeatCount(˚Int:˚autoreverses)
+//
 
 import SwiftUI
 
@@ -13,7 +16,10 @@ struct Stepper_animation_Button_scaleEffect: View {
         return VStack {
             Stepper(
                 "Scale amount",
-                value: $animationAmount.animation(),
+                value: $animationAmount.animation(
+                    .easeInOut(duration: 1)
+                    .repeatCount(3, autoreverses: true)
+                ),
                 in: 1...10
             )
             
