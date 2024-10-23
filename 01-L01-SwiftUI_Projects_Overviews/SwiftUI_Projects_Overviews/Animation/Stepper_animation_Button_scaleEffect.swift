@@ -1,5 +1,5 @@
 //
-//
+// §binding§animation(Animation)
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ struct Stepper_animation_Button_scaleEffect: View {
         VStack {
             Stepper(
                 "Scale amount",
-                value: $animationAmount,
+                value: $animationAmount.animation(),
                 in: 1...10
             )
             
