@@ -8,7 +8,9 @@ struct Stepper_animation_Button_scaleEffect: View {
     @State private var animationAmount: CGFloat = 1.0
     
     var body: some View {
-        VStack {
+        print(animationAmount)
+        
+        return VStack {
             Stepper(
                 "Scale amount",
                 value: $animationAmount.animation(),
