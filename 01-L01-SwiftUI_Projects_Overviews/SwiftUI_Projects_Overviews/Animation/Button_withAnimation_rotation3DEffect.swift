@@ -2,6 +2,7 @@
 // §button§.rotation3DEffect(˚Angle:axis:anchor:anchorZ:perspective:)
 //
 // §withAnimation(Animation:body)
+// §withAnimation(±spring(˚duration:˚bounce))
 //
 
 import SwiftUI
@@ -11,7 +12,7 @@ struct Button_withAnimation_rotation3DEffect: View {
     
     var body: some View {
         Button("Tap me") {
-            withAnimation() {
+            withAnimation(.spring(duration: 1, bounce: 0.5)) {
                 animationAmount += 360
             }
         }
