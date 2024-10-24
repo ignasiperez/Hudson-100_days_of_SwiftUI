@@ -1,5 +1,5 @@
 //
-//
+// §button§.rotation3DEffect(˚Angle:axis:anchor:anchorZ:perspective:)
 //
 
 import SwiftUI
@@ -15,6 +15,10 @@ struct Button_withAnimation_rotation3DEffect: View {
         .background(.red)
         .foregroundStyle(.white)
         .clipShape(.circle)
+        .rotation3DEffect(
+            .degrees(animationAmount),
+            axis: (x: 0, y: 1, z: 0)
+        )
     }
 }
 
