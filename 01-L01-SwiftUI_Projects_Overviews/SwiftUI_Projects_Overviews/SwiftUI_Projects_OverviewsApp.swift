@@ -92,7 +92,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            Button_onAppear_overlay_Circle_repeatForever()
 //            Stepper_animation_Button_scaleEffect()
 //            Button_withAnimation_rotation3DEffect()
-            Button_frame_animation()
+//            Button_frame_animation()
+            Button_frame_animation_clipShape_animation()
         }
     }
 }
