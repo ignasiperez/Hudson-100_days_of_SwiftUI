@@ -94,7 +94,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            Button_withAnimation_rotation3DEffect()
 //            Button_frame_animation()
 //            Button_frame_animation_clipShape_animation()
-            Button_frame_nilAnimation_clipShape_animation()
+//            Button_frame_nilAnimation_clipShape_animation()
+            LinearGradient_gesture_DragGesture()
         }
     }
 }

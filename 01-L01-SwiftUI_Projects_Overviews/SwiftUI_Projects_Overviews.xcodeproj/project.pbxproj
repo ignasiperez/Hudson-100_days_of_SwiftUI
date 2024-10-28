@@ -71,6 +71,7 @@
 		6B7B7F7D2CA5B5BF00410540 /* List_range_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B7F7C2CA5B5BF00410540 /* List_range_Text.swift */; };
 		6B88DD1E2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88DD1D2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift */; };
 		6B8DBD8E2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DBD8D2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift */; };
+		6B9BE9DD2CCFEBAC0042D799 /* LinearGradient_gesture_DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9BE9DC2CCFEBAC0042D799 /* LinearGradient_gesture_DragGesture.swift */; };
 		6BA2137E2CA6CA3000341F73 /* Bundle_main_url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2137D2CA6CA3000341F73 /* Bundle_main_url.swift */; };
 		6BA213802CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA2137F2CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift */; };
 		6BA5FCBE2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5FCBD2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift */; };
@@ -171,6 +172,7 @@
 		6B7B7F7C2CA5B5BF00410540 /* List_range_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_range_Text.swift; sourceTree = "<group>"; };
 		6B88DD1D2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar_dateComponents_hour_minute.swift; sourceTree = "<group>"; };
 		6B8DBD8D2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextChecker_NSRange_rangeOfMisspelledWord.swift; sourceTree = "<group>"; };
+		6B9BE9DC2CCFEBAC0042D799 /* LinearGradient_gesture_DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearGradient_gesture_DragGesture.swift; sourceTree = "<group>"; };
 		6BA2137D2CA6CA3000341F73 /* Bundle_main_url.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle_main_url.swift; sourceTree = "<group>"; };
 		6BA2137F2CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String_components_separatedBy_singleSpace.swift; sourceTree = "<group>"; };
 		6BA5FCBD2C99D5AE00B19D37 /* Stepper_LocalizedStringKey_value_in.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_LocalizedStringKey_value_in.swift; sourceTree = "<group>"; };
@@ -350,6 +352,7 @@
 				6BD440572CCA653200F2A8E5 /* Button_frame_animation.swift */,
 				6B6AF81C2CCFC4810046119A /* Button_frame_animation_clipShape_animation.swift */,
 				6B6AF81E2CCFC8AC0046119A /* Button_frame_nilAnimation_clipShape_animation.swift */,
+				6B9BE9DC2CCFEBAC0042D799 /* LinearGradient_gesture_DragGesture.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -470,6 +473,7 @@
 				6B06DC9D2C78986200D5FAE8 /* Buton_buttonStyle.swift in Sources */,
 				6B60B5602C76441E0036A99B /* LinearGradient_colors.swift in Sources */,
 				6B7159552C998D27003ED604 /* Stepper_LocalizedStringKey_value.swift in Sources */,
+				6B9BE9DD2CCFEBAC0042D799 /* LinearGradient_gesture_DragGesture.swift in Sources */,
 				6B5091A82C75E607006AFE4E /* ZStack_Color_frame_minWidth.swift in Sources */,
 				6BFBE88A2C778D5C00617D39 /* Button_titleKey_action_function.swift in Sources */,
 				6B3C762B2CBFB73E00AAA62F /* Button_animation.swift in Sources */,
