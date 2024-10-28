@@ -3,6 +3,9 @@
 //
 // §linearGradient§.offset(˚CGSize)
 //
+// §linearGradient§.gesture(˚Gesture:including)
+//      §DragGesture(minimumDistance:coordinateSpace)
+//
 
 import SwiftUI
 
@@ -18,6 +21,9 @@ struct LinearGradient_gesture_DragGesture: View {
         .frame(width: 300, height: 200)
         .clipShape(.rect(cornerRadius: 10))
         .offset(dragAmount)
+        .gesture(
+            DragGesture()
+        )
     }
 }
 
