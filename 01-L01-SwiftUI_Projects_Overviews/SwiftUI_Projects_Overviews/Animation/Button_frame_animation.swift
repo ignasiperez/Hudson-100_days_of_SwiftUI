@@ -12,7 +12,7 @@ struct Button_frame_animation: View {
             
         }
         .frame(width: 200, height: 200)
-        .background(.blue)
+        .background(enabled ? Color.red : Color.blue)
         .foregroundStyle(.white)
     }
 }
