@@ -14,6 +14,7 @@ struct Button_frame_animation: View {
         .frame(width: 200, height: 200)
         .background(enabled ? Color.red : Color.blue)
         .foregroundStyle(.white)
+        .animation(.default, value: enabled)
     }
 }
 
