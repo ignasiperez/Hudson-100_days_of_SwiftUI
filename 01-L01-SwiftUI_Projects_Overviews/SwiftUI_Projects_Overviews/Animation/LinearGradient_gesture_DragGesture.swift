@@ -11,6 +11,7 @@ struct LinearGradient_gesture_DragGesture: View {
             startPoint: .topLeading,
             endPoint: .bottomTrailing
         )
+        .frame(width: 300, height: 200)
     }
 }
 
