@@ -1,6 +1,8 @@
 //
 // §LinearGradient(˚colors:˚startPoint:˚endPoint:)
 //
+// §linearGradient§.offset(˚CGSize)
+//
 
 import SwiftUI
 
@@ -15,6 +17,7 @@ struct LinearGradient_gesture_DragGesture: View {
         )
         .frame(width: 300, height: 200)
         .clipShape(.rect(cornerRadius: 10))
+        .offset(dragAmount)
     }
 }
 
