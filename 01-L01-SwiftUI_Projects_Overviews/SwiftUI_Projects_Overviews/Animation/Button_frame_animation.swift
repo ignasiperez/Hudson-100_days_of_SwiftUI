@@ -9,7 +9,7 @@ struct Button_frame_animation: View {
     
     var body: some View {
         Button("Tap me") {
-            
+            enabled.toggle()
         }
         .frame(width: 200, height: 200)
         .background(enabled ? Color.red : Color.blue)
