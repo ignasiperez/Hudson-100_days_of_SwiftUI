@@ -12,6 +12,7 @@ struct LinearGradient_gesture_DragGesture: View {
             endPoint: .bottomTrailing
         )
         .frame(width: 300, height: 200)
+        .clipShape(.rect(cornerRadius: 10))
     }
 }
 
