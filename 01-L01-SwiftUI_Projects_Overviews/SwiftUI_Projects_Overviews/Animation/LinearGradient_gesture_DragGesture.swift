@@ -5,6 +5,8 @@
 import SwiftUI
 
 struct LinearGradient_gesture_DragGesture: View {
+    @State var dragAmount: CGSize = .zero
+    
     var body: some View {
         LinearGradient(
             colors: [.yellow, .red],
