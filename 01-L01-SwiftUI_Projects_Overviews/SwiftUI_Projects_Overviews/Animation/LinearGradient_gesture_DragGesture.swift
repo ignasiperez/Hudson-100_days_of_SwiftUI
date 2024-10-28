@@ -5,6 +5,7 @@
 //
 // §linearGradient§.gesture(˚Gesture:including)
 //      §DragGesture(minimumDistance:coordinateSpace)
+//          §gesture§onChanged(˚action)
 //
 
 import SwiftUI
@@ -23,6 +24,9 @@ struct LinearGradient_gesture_DragGesture: View {
         .offset(dragAmount)
         .gesture(
             DragGesture()
+                .onChanged { value in
+                    dragAmount = value.translation
+                }
         )
     }
 }
