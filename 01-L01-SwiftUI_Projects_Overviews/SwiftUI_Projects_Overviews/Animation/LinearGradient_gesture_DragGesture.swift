@@ -27,6 +27,9 @@ struct LinearGradient_gesture_DragGesture: View {
                 .onChanged { value in
                     dragAmount = value.translation
                 }
+                .onEnded { value in
+                    dragAmount = .zero
+                }
         )
     }
 }
