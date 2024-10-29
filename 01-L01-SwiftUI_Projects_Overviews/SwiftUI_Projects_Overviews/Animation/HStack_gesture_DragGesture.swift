@@ -10,7 +10,9 @@ struct HStack_gesture_DragGesture: View {
     @State private var dragAmount: CGSize = .zero
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 0) {
+            
+        }
     }
 }
 
