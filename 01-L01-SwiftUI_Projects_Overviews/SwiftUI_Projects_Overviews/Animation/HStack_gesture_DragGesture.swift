@@ -14,6 +14,8 @@ struct HStack_gesture_DragGesture: View {
             ForEach(0..<letters.count, id: \.self) { num in
                 Text(String(letters[num]))
                     .padding(5)
+                    .font(.title)
+                    .background(enabled ? .blue : .red)
             }
         }
     }
