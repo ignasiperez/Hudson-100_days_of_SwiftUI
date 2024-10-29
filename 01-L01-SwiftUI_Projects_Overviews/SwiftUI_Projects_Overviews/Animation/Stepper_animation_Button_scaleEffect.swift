@@ -2,7 +2,7 @@
 // §binding§animation(Animation)
 //
 // §animation§easeInOut(˚duration:)
-// §aniamtion§repeatCount(˚Int:˚autoreverses)
+//      §repeatCount(˚Int:˚autoreverses:)
 //
 
 import SwiftUI

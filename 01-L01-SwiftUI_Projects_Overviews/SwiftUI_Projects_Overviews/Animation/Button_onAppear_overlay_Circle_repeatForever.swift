@@ -6,7 +6,7 @@
 //      §Circle§.opacity(˚Double:)
 //
 // §animation§easeOut(˚duration:)
-// §aniamtion§repeatForever(˚autoreverses)
+//      §repeatForever(˚autoreverses:):value:)
 //
 
 import SwiftUI

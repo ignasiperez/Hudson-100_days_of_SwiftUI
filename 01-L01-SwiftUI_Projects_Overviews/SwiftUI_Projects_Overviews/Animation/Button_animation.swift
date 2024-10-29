@@ -1,12 +1,17 @@
 //
 // §button§.scaleEffect(˚CGFloat:anchor:)
 //
-// §button§.animation(˚Animation:˚value)
-// §button§.animation(±linear:˚value)
-// §button§.animation(±spring(˚duration:˚bounce:blendDuration:)
+// §button§.animation(˚Animation:˚value:)
+//
+// §button§.animation(±linear:˚value:)
+//
+// §button§.animation(±spring(˚duration:˚bounce:blendDuration:):value:
+//
 // §button§.animation(±easeInOut(˚duration:)
-//      §repeatCount(˚Int:˚autoreverses)
-//      §repeatForever(˚autoreverses)
+//      §repeatCount(˚Int:˚autoreverses):value:)
+//
+// §button§.animation(±easeInOut(˚duration:)
+//      §repeatForever(˚autoreverses:):value:)
 //
 
 import SwiftUI

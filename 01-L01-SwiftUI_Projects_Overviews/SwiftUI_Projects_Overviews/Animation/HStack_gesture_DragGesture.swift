@@ -4,7 +4,7 @@
 // §hStack§.gesture(˚Gesture:including)
 //      §DragGesture(minimumDistance:coordinateSpace)
 //
-// §Animation(±linear§delay(˚TimeInterval:):value)
+// §text±.animation(±linear§delay(˚TimeInterval:):value))
 //
 
 import SwiftUI

@@ -1,11 +1,12 @@
 //
 // §LinearGradient(˚colors:˚startPoint:˚endPoint:)
 //
-// §linearGradient§.offset(˚CGSize)
+// §linearGradient§.offset(˚CGSize:)
 //
 // §linearGradient§.gesture(˚Gesture:including)
 //      §DragGesture(minimumDistance:coordinateSpace)
 //          §gesture§onChanged(˚action)
+//          §gesture§onEnded(˚action)
 //
 
 import SwiftUI

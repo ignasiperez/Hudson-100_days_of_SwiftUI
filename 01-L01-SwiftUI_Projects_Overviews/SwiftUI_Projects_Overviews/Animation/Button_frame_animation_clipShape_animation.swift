@@ -1,5 +1,5 @@
 //
-//
+// §button§animation(±spring(˚duration:˚bounce:):value:)
 //
 
 import SwiftUI
