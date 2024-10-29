@@ -4,6 +4,8 @@
 // §hStack§.gesture(˚Gesture:including)
 //      §DragGesture(minimumDistance:coordinateSpace)
 //
+// §Animation(±linear§delay(˚TimeInterval:):value)
+//
 
 import SwiftUI
 
@@ -20,6 +22,10 @@ struct HStack_gesture_DragGesture: View {
                     .font(.title)
                     .background(enabled ? .blue : .red)
                     .offset(dragAmount)
+                    .animation(
+                        .linear.delay(Double(num) / 20),
+                        value: dragAmount
+                    )
             }
         }
         .gesture(
