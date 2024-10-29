@@ -1,5 +1,5 @@
 //
-//
+// §ForEach(˚Data:˚id:˚content:)
 //
 
 import SwiftUI
@@ -11,7 +11,9 @@ struct HStack_gesture_DragGesture: View {
     
     var body: some View {
         HStack(spacing: 0) {
-            
+            ForEach(0..<letters.count, id: \.self) { num in
+                Text(String(letters[num]))
+            }
         }
     }
 }
