@@ -1,6 +1,9 @@
 //
 // §ForEach(˚Data:˚id:˚content:)
 //
+// §hStack§.gesture(˚Gesture:including)
+//      §DragGesture(minimumDistance:coordinateSpace)
+//
 
 import SwiftUI
 
@@ -18,6 +21,9 @@ struct HStack_gesture_DragGesture: View {
                     .background(enabled ? .blue : .red)
             }
         }
+        .gesture(
+            DragGesture()
+        )
     }
 }
 
