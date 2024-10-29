@@ -19,6 +19,7 @@ struct HStack_gesture_DragGesture: View {
                     .padding(5)
                     .font(.title)
                     .background(enabled ? .blue : .red)
+                    .offset(dragAmount)
             }
         }
         .gesture(
