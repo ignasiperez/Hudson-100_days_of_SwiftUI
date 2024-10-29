@@ -26,6 +26,10 @@ struct HStack_gesture_DragGesture: View {
                 .onChanged { value in
                     dragAmount = value.translation
                 }
+                .onEnded { _ in
+                    dragAmount = .zero
+                    enabled.toggle()
+                }
         )
     }
 }
