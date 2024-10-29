@@ -23,6 +23,9 @@ struct HStack_gesture_DragGesture: View {
         }
         .gesture(
             DragGesture()
+                .onChanged { value in
+                    dragAmount = value.translation
+                }
         )
     }
 }
