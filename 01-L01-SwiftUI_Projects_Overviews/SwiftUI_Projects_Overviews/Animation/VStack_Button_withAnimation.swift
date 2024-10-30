@@ -1,10 +1,12 @@
 //
-// §rectangle§.fill(ShapeStyle:˚style:) 
+// §rectangle§.fill(ShapeStyle:˚style:)
 //
 
 import SwiftUI
 
 struct VStack_Button_withAnimation: View {
+    @State private var isShowingRed = false
+    
     var body: some View {
         VStack {
             Button("Tap me") {
