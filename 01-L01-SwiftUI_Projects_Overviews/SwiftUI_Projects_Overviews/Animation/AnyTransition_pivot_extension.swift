@@ -13,9 +13,11 @@ struct AnyTransition_pivot_extension: View {
                 .fill(Color.blue)
                 .frame(width: 200, height: 200)
             
-            Rectangle()
-                .fill(Color.red)
-                .frame(width: 200, height: 200)
+            if isShowingRed {
+                Rectangle()
+                    .fill(Color.red)
+                    .frame(width: 200, height: 200)
+            }
         }
     }
 }
