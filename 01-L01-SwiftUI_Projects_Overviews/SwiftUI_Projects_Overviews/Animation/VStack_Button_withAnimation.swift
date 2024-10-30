@@ -10,7 +10,7 @@ struct VStack_Button_withAnimation: View {
     var body: some View {
         VStack {
             Button("Tap me") {
-                // Do nothing
+                isShowingRed.toggle()
             }
             
             if isShowingRed {
