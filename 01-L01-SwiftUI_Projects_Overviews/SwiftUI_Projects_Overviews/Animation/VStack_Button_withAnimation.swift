@@ -1,6 +1,9 @@
 //
 // §rectangle§.fill(ShapeStyle:˚style:)
 //
+// §rectangle§.transition(˚AnyTransition)
+// §rectangle§.transition(±scale)
+//
 
 import SwiftUI
 
@@ -9,7 +12,7 @@ struct VStack_Button_withAnimation: View {
     
     var body: some View {
         VStack {
-            Button("Tap me") {
+            Button("Tap me ±scale §.transition") {
                 withAnimation {
                     isShowingRed.toggle()
                 }
@@ -19,6 +22,7 @@ struct VStack_Button_withAnimation: View {
                 Rectangle()
                     .fill(Color.red)
                     .frame(width: 200, height: 200)
+                    .transition(.scale)
             }
         }
     }
