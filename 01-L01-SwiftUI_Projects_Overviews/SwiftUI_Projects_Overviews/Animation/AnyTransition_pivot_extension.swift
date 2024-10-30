@@ -4,6 +4,13 @@
 
 import SwiftUI
 
+struct CornerRotateModifier: ViewModifier {
+    
+    func body(content: Content) -> some View {
+        
+    }
+}
+
 struct AnyTransition_pivot_extension: View {
     @State var isShowingRed = false
     
