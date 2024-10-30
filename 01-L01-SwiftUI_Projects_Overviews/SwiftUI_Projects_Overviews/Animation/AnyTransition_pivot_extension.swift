@@ -19,6 +19,11 @@ struct AnyTransition_pivot_extension: View {
                     .frame(width: 200, height: 200)
             }
         }
+        .onTapGesture {
+            withAnimation {
+                isShowingRed.toggle()
+            }
+        }
     }
 }
 

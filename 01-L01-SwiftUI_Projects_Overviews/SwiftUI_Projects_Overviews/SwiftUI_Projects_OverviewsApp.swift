@@ -99,7 +99,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            LinearGradient_gesture_DragGesture_implicitAnimation()
 //            LinearGradient_gesture_DragGesture_explicitAnimation()
 //            HStack_gesture_DragGesture()
-            VStack_Button_withAnimation()
+//            VStack_Button_withAnimation()
+            AnyTransition_pivot_extension()
         }
     }
 }
