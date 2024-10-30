@@ -5,6 +5,8 @@
 import SwiftUI
 
 struct AnyTransition_pivot_extension: View {
+    @State var isShowingRed = false
+    
     var body: some View {
         ZStack {
             Rectangle()
