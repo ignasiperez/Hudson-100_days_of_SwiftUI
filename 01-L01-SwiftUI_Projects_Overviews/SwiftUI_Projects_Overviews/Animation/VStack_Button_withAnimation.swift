@@ -13,9 +13,11 @@ struct VStack_Button_withAnimation: View {
                 // Do nothing
             }
             
-            Rectangle()
-                .fill(Color.red)
-                .frame(width: 200, height: 200)
+            if isShowingRed {
+                Rectangle()
+                    .fill(Color.red)
+                    .frame(width: 200, height: 200)
+            }
         }
     }
 }
