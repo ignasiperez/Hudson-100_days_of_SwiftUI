@@ -8,11 +8,14 @@ struct CornerRotateModifier: ViewModifier {
     let amount: Double
     let anchor: UnitPoint
     
-    
     func body(content: Content) -> some View {
         content
             .rotationEffect(.degrees(amount),anchor: anchor)
     }
+}
+
+extension AnyTransition {
+    
 }
 
 struct AnyTransition_pivot_extension: View {
