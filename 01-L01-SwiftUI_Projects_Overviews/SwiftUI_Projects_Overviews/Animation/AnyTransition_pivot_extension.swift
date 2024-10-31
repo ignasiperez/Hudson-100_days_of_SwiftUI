@@ -1,5 +1,5 @@
 //
-//
+// §content§.rotationEffect(˚Angle:anchor)
 //
 
 import SwiftUI
@@ -10,7 +10,8 @@ struct CornerRotateModifier: ViewModifier {
     
     
     func body(content: Content) -> some View {
-        
+        content
+            .rotationEffect(.degrees(amount),anchor: anchor)
     }
 }
 
