@@ -15,7 +15,9 @@ struct CornerRotateModifier: ViewModifier {
 }
 
 extension AnyTransition {
-    
+//    static var pivot: AnyTransition {
+//
+//    }
 }
 
 struct AnyTransition_pivot_extension: View {
