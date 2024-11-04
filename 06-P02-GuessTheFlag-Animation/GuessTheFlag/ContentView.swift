@@ -122,6 +122,8 @@ struct ContentView: View {
         countries.shuffle()
         correctAnswer = Int.random(in: 0...2)
         questionCounter += 1
+        
+        selectedFlag = -1
     }
     
     private func newGame() {
