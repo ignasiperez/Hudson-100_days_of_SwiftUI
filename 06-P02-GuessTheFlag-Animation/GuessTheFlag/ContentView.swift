@@ -110,6 +110,8 @@ struct ContentView: View {
             }
         }
         
+        selectedFlag = number
+        
         if questionCounter == 8 {
             showingResults = true
         } else {
