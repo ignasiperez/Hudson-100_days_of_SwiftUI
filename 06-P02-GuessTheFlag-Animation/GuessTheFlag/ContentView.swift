@@ -22,6 +22,8 @@ struct ContentView: View {
     
     @State private var questionCounter: Int = 1
     
+    @State private var selectedFlag = -1
+    
     var body: some View {
         ZStack {
             RadialGradient(
