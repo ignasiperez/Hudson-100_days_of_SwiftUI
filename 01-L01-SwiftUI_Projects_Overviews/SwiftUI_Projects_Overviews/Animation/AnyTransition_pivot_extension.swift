@@ -1,6 +1,8 @@
 //
 // §content§.rotationEffect(˚Angle:anchor)
 //
+// §rectangle§.transition(˚AnyTransition)
+//
 
 import SwiftUI
 
@@ -36,6 +38,7 @@ struct AnyTransition_pivot_extension: View {
                 Rectangle()
                     .fill(Color.red)
                     .frame(width: 200, height: 200)
+                    .transition(.pivot)
             }
         }
         .onTapGesture {
