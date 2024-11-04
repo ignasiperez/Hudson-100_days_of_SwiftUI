@@ -13,6 +13,7 @@ struct CornerRotateModifier: ViewModifier {
     func body(content: Content) -> some View {
         content
             .rotationEffect(.degrees(amount),anchor: anchor)
+            .clipped()
     }
 }
 
