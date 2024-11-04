@@ -57,6 +57,10 @@ struct ContentView: View {
                     
                     ForEach(0..<3) { number in
                         Button(action: {
+                            withAnimation(.default) {
+                                selectedFlag = number
+                            }
+                            
                             flagTapped(number)
                         }, label: {
                             FlagImage(name: countries[number])
@@ -90,7 +94,6 @@ struct ContentView: View {
             Text("Your final score was \(score)")
         }
         
-        
     } // body
     
     func flagTapped(_ number: Int) {
@@ -109,8 +112,6 @@ struct ContentView: View {
                 score -= 1
             }
         }
-        
-        selectedFlag = number
         
         if questionCounter == 8 {
             showingResults = true
