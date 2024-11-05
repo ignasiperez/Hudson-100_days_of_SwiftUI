@@ -13,7 +13,9 @@ struct User_struct_State: View {
     @State private var user = User()
     
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            Text("Your name is \(user.firstName) \(user.lastName).")
+        }
     }
 }
 
