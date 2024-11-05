@@ -1,10 +1,13 @@
 //
-// @State
+// class + @State
+//
+// It doesn’t work any more.
+// Sure, we can type into the text fields just like before, but the text view above doesn’t change.
 //
 
 import SwiftUI
 
-struct User2 {
+class User2 {
     var firstName = "Bilbo"
     var lastName = "Baggins"
 }

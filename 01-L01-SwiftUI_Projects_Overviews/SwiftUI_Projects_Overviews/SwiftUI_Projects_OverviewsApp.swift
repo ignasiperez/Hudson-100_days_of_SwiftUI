@@ -102,7 +102,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            VStack_Button_withAnimation()
 //            AnyTransition_pivot_extension()
             // iExpense
-            User_struct_State()
+//            User_struct_State()
+            User_class_State()
         }
     }
 }

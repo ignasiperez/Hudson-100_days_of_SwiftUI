@@ -1,5 +1,5 @@
 //
-// @State
+// struct + @State
 //
 
 import SwiftUI
