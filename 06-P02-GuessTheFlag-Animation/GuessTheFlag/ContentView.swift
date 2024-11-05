@@ -65,6 +65,10 @@ struct ContentView: View {
                         }, label: {
                             FlagImage(name: countries[number])
                         })
+                        .rotation3DEffect(
+                            (selectedFlag == number) ? .degrees(360) : .degrees(0),
+                            axis: (x: 0, y: 1, z: 0)
+                        )
                     }
                 } // VStack
                 .frame(maxWidth: .infinity)
