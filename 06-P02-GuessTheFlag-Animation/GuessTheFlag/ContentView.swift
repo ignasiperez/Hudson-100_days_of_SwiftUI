@@ -69,6 +69,9 @@ struct ContentView: View {
                             (selectedFlag == number) ? .degrees(360) : .degrees(0),
                             axis: (x: 0, y: 1, z: 0)
                         )
+                        .opacity(
+                            selectedFlag == -1 || selectedFlag == number ? 1.0 : 0.25
+                        )
                     }
                 } // VStack
                 .frame(maxWidth: .infinity)
