@@ -72,6 +72,9 @@ struct ContentView: View {
                         .opacity(
                             selectedFlag == -1 || selectedFlag == number ? 1.0 : 0.25
                         )
+                        .scaleEffect(
+                            selectedFlag == -1 || selectedFlag == number ? 1.0 : 0.25
+                        )
                     }
                 } // VStack
                 .frame(maxWidth: .infinity)
