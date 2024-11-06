@@ -15,7 +15,7 @@ struct SecondView_ContentView_Button_sheet: View {
     
     var body: some View {
         Button("Show Sheet") {
-            // §TODO: Show the sheet
+            showingSheet.toggle()
         }
     }
 }
