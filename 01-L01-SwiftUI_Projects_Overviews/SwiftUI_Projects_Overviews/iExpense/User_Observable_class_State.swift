@@ -1,5 +1,7 @@
 //
-// @Observable class + @State
+// §@Observable class + @State
+//
+//  If you use @State with a class then you must mark that class with @Observable in order to make SwiftUI to watch its contents for changes
 //
 
 import SwiftUI
