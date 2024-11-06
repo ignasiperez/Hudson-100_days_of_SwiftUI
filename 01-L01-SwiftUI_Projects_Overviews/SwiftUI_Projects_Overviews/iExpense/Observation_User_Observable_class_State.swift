@@ -1,17 +1,17 @@
 //
-// @Observable class + @State
+//
 //
 
 import SwiftUI
 
 @Observable
-class User3 {
+class User4 {
     var firstName = "Bilbo"
     var lastName = "Baggins"
 }
 
-struct User_Observable_class_State: View {
-    @State private var user = User3()
+struct Observation_User_Observable_class_State: View {
+    @State private var user = User4()
     
     var body: some View {
         VStack {
@@ -24,5 +24,5 @@ struct User_Observable_class_State: View {
 }
 
 #Preview {
-    User_Observable_class_State()
+    Observation_User_Observable_class_State()
 }

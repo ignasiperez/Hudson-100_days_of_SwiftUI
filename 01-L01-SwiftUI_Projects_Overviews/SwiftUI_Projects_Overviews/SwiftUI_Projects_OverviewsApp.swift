@@ -103,7 +103,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            AnyTransition_pivot_extension()
             // iExpense
 //            User_struct_State()
-            User_class_State()
+//            User_class_State()
+            User_Observable_class_State()
         }
     }
 }
