@@ -12,7 +12,9 @@ struct SecondView: View {
 
 struct SecondView_ContentView_Button_sheet: View {
     var body: some View {
-        Text("Hello, World!")
+        Button("Show Sheet") {
+            // §TODO: Show the sheet
+        }
     }
 }
 
