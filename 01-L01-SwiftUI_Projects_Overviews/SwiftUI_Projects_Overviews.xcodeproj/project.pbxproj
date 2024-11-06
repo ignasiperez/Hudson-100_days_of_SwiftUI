@@ -19,6 +19,7 @@
 		6B089D372C8B1AC70000C814 /* VStack_CapsuleText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B089D362C8B1AC70000C814 /* VStack_CapsuleText.swift */; };
 		6B08C7DA2CBE72E000ABB270 /* Button_scaleEffect_blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B08C7D92CBE72E000ABB270 /* Button_scaleEffect_blur.swift */; };
 		6B0B15C02CA2B78F00F4829F /* Calendar_DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0B15BF2CA2B78F00F4829F /* Calendar_DateComponents.swift */; };
+		6B0CBA2B2CDBD264008295F2 /* SecondView_ContentView_Button_sheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0CBA2A2CDBD264008295F2 /* SecondView_ContentView_Button_sheet.swift */; };
 		6B0DD7422CC283C0002B456C /* Stepper_animation_Button_scaleEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0DD7412CC283C0002B456C /* Stepper_animation_Button_scaleEffect.swift */; };
 		6B1F00CC2CCA40F7002E73DA /* Button_withAnimation_rotation3DEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B1F00CB2CCA40F7002E73DA /* Button_withAnimation_rotation3DEffect.swift */; };
 		6B27A6762C74F2DE00F1CE3F /* VStack_implicit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B27A6752C74F2DE00F1CE3F /* VStack_implicit.swift */; };
@@ -129,6 +130,7 @@
 		6B089D362C8B1AC70000C814 /* VStack_CapsuleText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_CapsuleText.swift; sourceTree = "<group>"; };
 		6B08C7D92CBE72E000ABB270 /* Button_scaleEffect_blur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_scaleEffect_blur.swift; sourceTree = "<group>"; };
 		6B0B15BF2CA2B78F00F4829F /* Calendar_DateComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar_DateComponents.swift; sourceTree = "<group>"; };
+		6B0CBA2A2CDBD264008295F2 /* SecondView_ContentView_Button_sheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView_ContentView_Button_sheet.swift; sourceTree = "<group>"; };
 		6B0DD7412CC283C0002B456C /* Stepper_animation_Button_scaleEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stepper_animation_Button_scaleEffect.swift; sourceTree = "<group>"; };
 		6B1F00CB2CCA40F7002E73DA /* Button_withAnimation_rotation3DEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_withAnimation_rotation3DEffect.swift; sourceTree = "<group>"; };
 		6B27A6752C74F2DE00F1CE3F /* VStack_implicit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_implicit.swift; sourceTree = "<group>"; };
@@ -428,6 +430,7 @@
 				6BE8E7D92CDA483B00262816 /* User_class_State.swift */,
 				6BE8E7DB2CDA4B9A00262816 /* User_Observable_class_State.swift */,
 				6B62F85D2CDB86960096DC44 /* Observation_User_Observable_class_State.swift */,
+				6B0CBA2A2CDBD264008295F2 /* SecondView_ContentView_Button_sheet.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -557,6 +560,7 @@
 				6B639A802CA570B300D5F518 /* List_content_Text.swift in Sources */,
 				6B089D332C8B12700000C814 /* ViewBuilder_GroupAsComputedProperty.swift in Sources */,
 				6BAF19292CA0497A00B8B0B7 /* DatePicker_LocalizedStringKey_selection_displayedComponents_hourAndMinute.swift in Sources */,
+				6B0CBA2B2CDBD264008295F2 /* SecondView_ContentView_Button_sheet.swift in Sources */,
 				6B089D2B2C8B0B110000C814 /* VStack_TextAsProperty.swift in Sources */,
 				6B312B282C7386160041A9D8 /* ForEach_Range_shorthandSyntax.swift in Sources */,
 				6B582E782CA47CC300C46773 /* Text_Date_formatted.swift in Sources */,
