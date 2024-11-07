@@ -5,8 +5,10 @@
 import SwiftUI
 
 struct SecondView: View {
+    let name: String
+    
     var body: some View {
-        Text("Second View")
+        Text("Hello, \(name)!")
     }
 }
 
@@ -18,7 +20,7 @@ struct SecondView_ContentView_Button_sheet: View {
             showingSheet.toggle()
         }
         .sheet(isPresented: $showingSheet) {
-            SecondView()
+//            SecondView()
         }
     }
 }
