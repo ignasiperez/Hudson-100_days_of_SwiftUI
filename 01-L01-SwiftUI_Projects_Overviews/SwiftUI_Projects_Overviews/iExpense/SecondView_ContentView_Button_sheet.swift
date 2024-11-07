@@ -1,5 +1,5 @@
 //
-//
+// §button§.sheet(˚isPresented:onDismiss:˚content:)
 //
 
 import SwiftUI
@@ -16,6 +16,9 @@ struct SecondView_ContentView_Button_sheet: View {
     var body: some View {
         Button("Show Sheet") {
             showingSheet.toggle()
+        }
+        .sheet(isPresented: $showingSheet) {
+            // §TODO: Contents of our sheet
         }
     }
 }
