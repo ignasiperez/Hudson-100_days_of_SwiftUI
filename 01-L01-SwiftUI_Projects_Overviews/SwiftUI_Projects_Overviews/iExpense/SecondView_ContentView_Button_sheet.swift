@@ -9,7 +9,9 @@ struct SecondView: View {
     let name: String
     
     var body: some View {
-        Text("Hello, \(name)!")
+        Button("Dismiss") {
+            // §TODO: Dismiss this view
+        }
     }
 }
 
