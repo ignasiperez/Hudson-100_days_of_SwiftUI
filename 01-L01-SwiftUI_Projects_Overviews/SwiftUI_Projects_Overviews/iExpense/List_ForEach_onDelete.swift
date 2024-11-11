@@ -11,7 +11,9 @@ struct List_ForEach_onDelete: View {
     var body: some View {
         VStack {
             List {
-                // §TODO: To delete items we'll have to create a ForEach struct
+                ForEach(numbers, id: \.self) { number in
+                    Text("\(number)")
+                }
             }
         }
     }

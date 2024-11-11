@@ -106,7 +106,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            User_class_State()
 //            User_Observable_class_State()
 //            Observation_User_Observable_class_State()
-            SecondView_ContentView_Button_sheet()
+//            SecondView_ContentView_Button_sheet()
+            List_ForEach_onDelete()
         }
     }
 }
