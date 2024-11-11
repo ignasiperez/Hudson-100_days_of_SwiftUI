@@ -12,13 +12,14 @@ struct List_ForEach_onDelete: View {
         VStack {
             List {
                 ForEach(numbers, id: \.self) { number in
-                    Text("\(number)")
+                    Text("Row \(number)")
                 }
             }
         }
         
         Button("Add number") {
-            // §TODO: Append to the numbers array the current number, and increase currentNumber by 1
+            numbers.append(currentNumber)
+            currentNumber += 1
         }
     }
 }
