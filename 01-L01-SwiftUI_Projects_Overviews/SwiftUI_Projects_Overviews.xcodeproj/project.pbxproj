@@ -72,6 +72,7 @@
 		6B71CB542C887532008AE70C /* VStack_frame_background.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71CB532C887532008AE70C /* VStack_frame_background.swift */; };
 		6B71CB562C887894008AE70C /* Button_background_frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B71CB552C887894008AE70C /* Button_background_frame.swift */; };
 		6B7B7F7D2CA5B5BF00410540 /* List_range_Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7B7F7C2CA5B5BF00410540 /* List_range_Text.swift */; };
+		6B7E26532CE2369B00E1083E /* List_ForEach_onDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B7E26522CE2369B00E1083E /* List_ForEach_onDelete.swift */; };
 		6B88DD1E2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B88DD1D2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift */; };
 		6B8DBD8E2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DBD8D2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift */; };
 		6B8DD0DF2CD2924800D68A23 /* AnyTransition_pivot_extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8DD0DE2CD2924800D68A23 /* AnyTransition_pivot_extension.swift */; };
@@ -183,6 +184,7 @@
 		6B71CB532C887532008AE70C /* VStack_frame_background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VStack_frame_background.swift; sourceTree = "<group>"; };
 		6B71CB552C887894008AE70C /* Button_background_frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button_background_frame.swift; sourceTree = "<group>"; };
 		6B7B7F7C2CA5B5BF00410540 /* List_range_Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_range_Text.swift; sourceTree = "<group>"; };
+		6B7E26522CE2369B00E1083E /* List_ForEach_onDelete.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_ForEach_onDelete.swift; sourceTree = "<group>"; };
 		6B88DD1D2CA2D4B3009812F2 /* Calendar_dateComponents_hour_minute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar_dateComponents_hour_minute.swift; sourceTree = "<group>"; };
 		6B8DBD8D2CAC156200DAD56B /* UITextChecker_NSRange_rangeOfMisspelledWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextChecker_NSRange_rangeOfMisspelledWord.swift; sourceTree = "<group>"; };
 		6B8DD0DE2CD2924800D68A23 /* AnyTransition_pivot_extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransition_pivot_extension.swift; sourceTree = "<group>"; };
@@ -431,6 +433,7 @@
 				6BE8E7DB2CDA4B9A00262816 /* User_Observable_class_State.swift */,
 				6B62F85D2CDB86960096DC44 /* Observation_User_Observable_class_State.swift */,
 				6B0CBA2A2CDBD264008295F2 /* SecondView_ContentView_Button_sheet.swift */,
+				6B7E26522CE2369B00E1083E /* List_ForEach_onDelete.swift */,
 			);
 			path = iExpense;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 				6B0B15C02CA2B78F00F4829F /* Calendar_DateComponents.swift in Sources */,
 				6BA213802CA6DA2600341F73 /* String_components_separatedBy_singleSpace.swift in Sources */,
 				6B62F85E2CDB86960096DC44 /* Observation_User_Observable_class_State.swift in Sources */,
+				6B7E26532CE2369B00E1083E /* List_ForEach_onDelete.swift in Sources */,
 				6B5091AC2C75EF1E006AFE4E /* ZStack_Color_semanticColors2.swift in Sources */,
 				6B2E7A612CAAC8B800353F35 /* String_components_separatedBy_lineBreak.swift in Sources */,
 				6BD440582CCA653200F2A8E5 /* Button_frame_animation.swift in Sources */,

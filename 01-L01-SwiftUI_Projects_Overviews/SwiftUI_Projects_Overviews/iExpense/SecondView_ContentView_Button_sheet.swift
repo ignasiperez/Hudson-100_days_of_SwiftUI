@@ -10,7 +10,7 @@ struct SecondView: View {
     
     var body: some View {
         Button("Dismiss") {
-            // §TODO: Dismiss this view
+            dismiss()
         }
     }
 }
