@@ -16,6 +16,10 @@ struct List_ForEach_onDelete: View {
                 }
             }
         }
+        
+        Button("Add number") {
+            // §TODO: Append to the numbers array the current number, and increase currentNumber by 1
+        }
     }
 }
 
