@@ -1,5 +1,5 @@
 //
-//
+// §array§remove(atOffsets:)
 //
 
 import SwiftUI
@@ -21,6 +21,10 @@ struct List_ForEach_onDelete: View {
             numbers.append(currentNumber)
             currentNumber += 1
         }
+    }
+    
+    func removeRows(at offsets: IndexSet) {
+        // §TODO: Remove all the elements at the specified offsets from the numbers array (§remove(atOffsets:))
     }
 }
 
