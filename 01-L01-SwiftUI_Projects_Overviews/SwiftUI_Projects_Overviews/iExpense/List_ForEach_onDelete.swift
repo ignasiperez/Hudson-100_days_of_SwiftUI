@@ -24,7 +24,7 @@ struct List_ForEach_onDelete: View {
     }
     
     func removeRows(at offsets: IndexSet) {
-        // §TODO: Remove all the elements at the specified offsets from the numbers array (§remove(atOffsets:))
+        numbers.remove(atOffsets: offsets)
     }
 }
 
