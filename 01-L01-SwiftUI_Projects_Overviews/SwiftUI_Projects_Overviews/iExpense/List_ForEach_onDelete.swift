@@ -1,6 +1,8 @@
 //
 // §array§remove(atOffsets:)
 //
+// §forEach§.onDelete(˚perform:)
+//
 
 import SwiftUI
 
@@ -14,6 +16,7 @@ struct List_ForEach_onDelete: View {
                 ForEach(numbers, id: \.self) { number in
                     Text("Row \(number)")
                 }
+                .onDelete(perform: removeRows)
             }
         }
         
