@@ -1,5 +1,6 @@
 //
-//
+// §vStack§.toolbar(˚content:)
+//      content --> §EditButton()
 //
 
 import SwiftUI
@@ -9,7 +10,7 @@ struct NavigationStack_VStack_toolbar_EditButton: View {
     @State private var currentNumber = 1
     
     var body: some View {
-         NavigationStack { 
+         NavigationStack {
             VStack {
                 List {
                     ForEach(numbers, id: \.self) { number in
@@ -22,6 +23,9 @@ struct NavigationStack_VStack_toolbar_EditButton: View {
                     numbers.append(currentNumber)
                     currentNumber += 1
                 }
+            }
+            .toolbar {
+                EditButton()
             }
         }
     }
