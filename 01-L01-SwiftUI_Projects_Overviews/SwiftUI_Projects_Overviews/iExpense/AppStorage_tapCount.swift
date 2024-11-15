@@ -1,14 +1,14 @@
 //
-//
+// §@AppStorage
 //
 
 import SwiftUI
 
 struct AppStorage_tapCount: View {
-    @State private var tapCount = 0
+    @AppStorage("tapCount") private var tapCount = 0
     
     var body: some View {
-        Button("Tap count: \(tapCount)") {
+        Button("Tap count (@AppStorage): \(tapCount)") {
             tapCount += 1
         }
     }
