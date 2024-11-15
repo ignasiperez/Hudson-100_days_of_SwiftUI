@@ -9,7 +9,7 @@ struct UserDefaults_tapCount: View {
     
     var body: some View {
         Button("Tap count: \(tapCount)") {
-            
+            tapCount += 1
         }
     }
 }
