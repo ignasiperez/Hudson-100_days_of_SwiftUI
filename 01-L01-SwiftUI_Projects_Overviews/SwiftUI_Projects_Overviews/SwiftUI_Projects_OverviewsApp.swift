@@ -109,7 +109,8 @@ struct SwiftUI_Projects_OverviewsApp: App {
 //            SecondView_ContentView_Button_sheet()
 //            List_ForEach_onDelete()
 //            NavigationStack_VStack_toolbar_EditButton()
-            UserDefaults_tapCount()
+//            UserDefaults_tapCount()
+            AppStorage_tapCount()
         }
     }
 }
