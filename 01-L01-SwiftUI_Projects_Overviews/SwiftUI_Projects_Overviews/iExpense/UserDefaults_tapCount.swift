@@ -1,5 +1,5 @@
 //
-//
+// §UserDefaults§standard§set(tapCount:forKey:)
 //
 
 import SwiftUI
@@ -10,6 +10,8 @@ struct UserDefaults_tapCount: View {
     var body: some View {
         Button("Tap count: \(tapCount)") {
             tapCount += 1
+            
+            UserDefaults.standard.set(tapCount, forKey: "Tap")
         }
     }
 }
