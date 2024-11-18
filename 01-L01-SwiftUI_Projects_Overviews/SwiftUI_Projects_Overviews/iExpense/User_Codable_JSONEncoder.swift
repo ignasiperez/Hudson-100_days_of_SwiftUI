@@ -11,7 +11,9 @@ struct User5 {
 
 struct User_Codable_JSONEncoder: View {
     var body: some View {
-        Text("Hello, World!")
+        Button("Save User") {
+            // §TODO: Archives User5 and save it to UserDefaults
+        }
     }
 }
 
