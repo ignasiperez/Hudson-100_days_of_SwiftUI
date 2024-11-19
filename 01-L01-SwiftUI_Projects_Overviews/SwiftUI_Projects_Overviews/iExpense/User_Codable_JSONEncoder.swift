@@ -1,6 +1,8 @@
 //
 // §JSONEncoder()
 //
+// §JSONEncoder()§encode(˚Encodable)
+//
 
 import SwiftUI
 
@@ -17,6 +19,9 @@ struct User_Codable_JSONEncoder: View {
         Button("Save User") {
             // Archive User5 and save it to UserDefaults
             let encoder = JSONEncoder()
+            if let data = try? encoder.encode(user) {
+                
+            }
         }
     }
 }
