@@ -3,6 +3,8 @@
 //
 // §JSONEncoder()§encode(˚Encodable)
 //
+// §UserDefaults§standard§set(˚Any:˚forKey:)
+//
 
 import SwiftUI
 
@@ -20,7 +22,8 @@ struct User_Codable_JSONEncoder: View {
             // Archive User5 and save it to UserDefaults
             let encoder = JSONEncoder()
             if let data = try? encoder.encode(user) {
-                
+                UserDefaults.standard.set(data,
+                                          forKey: "UserData")
             }
         }
     }
