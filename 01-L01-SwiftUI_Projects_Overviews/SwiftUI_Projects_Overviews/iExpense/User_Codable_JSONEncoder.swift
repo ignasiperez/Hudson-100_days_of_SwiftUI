@@ -4,7 +4,7 @@
 
 import SwiftUI
 
-struct User5 {
+struct User5: Codable {
     let firstName: String
     let lastName: String
 }
