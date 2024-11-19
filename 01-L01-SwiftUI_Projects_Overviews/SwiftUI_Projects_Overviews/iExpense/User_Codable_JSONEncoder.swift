@@ -1,5 +1,5 @@
 //
-//
+// §JSONEncoder()
 //
 
 import SwiftUI
@@ -12,7 +12,8 @@ struct User5: Codable {
 struct User_Codable_JSONEncoder: View {
     var body: some View {
         Button("Save User") {
-            // §TODO: Archives User5 and save it to UserDefaults
+            // Archive User5 and save it to UserDefaults
+            let encoder = JSONEncoder()
         }
     }
 }
